@@ -1,0 +1,8 @@
+2021-07-30 23:41:15,146 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 14616 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-30 23:41:15,166 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-30 23:41:15,167 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-30 23:41:17,227 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.615 seconds (JVM running for 6.032)
+2021-07-30 23:41:47,257 INFO c.e.i.c.ivaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId start-1234
+2021-07-30 23:41:47,258 INFO c.e.i.c.ivaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId finish
+2021-07-30 23:41:55,646 INFO c.e.i.c.ivaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-2] getWeatherByAirportId start-1234pp
+2021-07-30 23:41:55,646 INFO c.e.i.c.ivaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-2] getWeatherByAirportId finish
