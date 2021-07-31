@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.IOException;
+import java.net.URISyntaxException;
+
 @RestController
 public class IvaoWeatherControler {
     private static final Logger logger = LogManager.getLogger(IvaoWeatherControler.class);
@@ -18,17 +21,32 @@ public class IvaoWeatherControler {
     private IvaoWeatherService ivaoWeatherService;
 
     /*---------------------------  GET by id -----------------------------*/
-    @GetMapping(value = "airportWeather/{airportId}")
+    @GetMapping(value = "airportWeatherObs/{airportId}")
     @ResponseStatus(HttpStatus.OK)
-    public String getWeatherByAirportId(@PathVariable String airportId) throws AirportIdtNotFoundException {
+    public String getWeatherObsByAirportId(@PathVariable String airportId) throws AirportIdtNotFoundException {
 
-        logger.info("getWeatherByAirportId start-"+airportId);
-        String result = ivaoWeatherService.getWeatherByAirport(airportId);
-        if (result==null){
-            logger.warn("The airport Id " + airportId + " does not exist");
-            throw new AirportIdtNotFoundException("The airport Id " + airportId + " does not exist");
+        logger.info("getWeatherObsByAirportId start-" + airportId);
+        String result = null;
+        try {
+            result = ivaoWeatherService.getWeatherObsByAirport(airportId);
+            if (result == null) {
+                logger.warn("The airport Id " + airportId + " does not exist");
+                throw new AirportIdtNotFoundException("The airport Id " + airportId + " does not exist");
+            }
         }
-        logger.info("getWeatherByAirportId finish");
+        catch (URISyntaxException e) {
+            logger.info("getWeatherObsByAirportId ERROR URISyntaxException");
+            result = "ERROR";
+        }
+        catch (IOException e) {
+            logger.info("getWeatherObsByAirportId ERROR IOException");
+            result = "ERROR";
+        }
+        catch (InterruptedException e) {
+            logger.info("getWeatherObsByAirportId ERROR InterruptedException");
+            result = "ERROR";
+        }
+        logger.info("getWeatherObsByAirportId finish");
         return result;
 
     }

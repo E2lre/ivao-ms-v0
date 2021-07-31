@@ -1,22 +1,209 @@
-2021-07-30 23:41:15,146 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 14616 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
-2021-07-30 23:41:15,166 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-07-30 23:41:15,167 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
-2021-07-30 23:41:17,227 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.615 seconds (JVM running for 6.032)
-2021-07-30 23:41:47,257 INFO c.e.i.c.ivaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId start-1234
-2021-07-30 23:41:47,258 INFO c.e.i.c.ivaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId finish
-2021-07-30 23:41:55,646 INFO c.e.i.c.ivaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-2] getWeatherByAirportId start-1234pp
-2021-07-30 23:41:55,646 INFO c.e.i.c.ivaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-2] getWeatherByAirportId finish
-2021-07-30 23:54:42,049 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 13132 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
-2021-07-30 23:54:42,063 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-07-30 23:54:42,065 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
-2021-07-30 23:54:44,261 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 3.117 seconds (JVM running for 9.788)
-2021-07-30 23:55:00,363 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId start-1234ppzz
-2021-07-30 23:55:00,363 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-1] getWeatherByAirport start/Finish-1234ppzz
-2021-07-30 23:55:00,363 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId finish
-2021-07-30 23:58:32,010 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 7124 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
-2021-07-30 23:58:32,022 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-07-30 23:58:32,024 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
-2021-07-30 23:58:34,909 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 3.682 seconds (JVM running for 8.639)
-2021-07-30 23:58:36,994 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId start-remi
-2021-07-30 23:58:36,996 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-1] getWeatherByAirport start/Finish-remi
-2021-07-30 23:58:36,997 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId finish
+2021-07-31 18:08:14,083 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 10248 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 18:08:14,100 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 18:08:14,101 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 18:08:16,249 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.626 seconds (JVM running for 6.951)
+2021-07-31 18:08:27,946 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId start-remi
+2021-07-31 18:08:27,949 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-1] getWeatherByAirport start/Finish-remi
+2021-07-31 18:08:27,949 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId finish
+2021-07-31 18:16:37,368 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 4752 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 18:16:37,382 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 18:16:37,384 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 18:16:39,500 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.816 seconds (JVM running for 7.414)
+2021-07-31 18:16:49,214 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId start-remi
+2021-07-31 18:16:49,216 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-1] getWeatherByAirport start/Finish-remi
+2021-07-31 18:41:36,712 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId finish
+2021-07-31 18:42:39,225 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 6896 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 18:42:39,244 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 18:42:39,246 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 18:42:41,111 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.417 seconds (JVM running for 5.938)
+2021-07-31 18:42:47,818 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId start-remi
+2021-07-31 18:42:47,819 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-1] getWeatherByAirport start/Finish-remi
+2021-07-31 18:44:05,901 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId finish
+2021-07-31 18:45:14,159 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-3] getWeatherByAirportId start-remi
+2021-07-31 18:45:14,159 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-3] getWeatherByAirport start/Finish-remi
+2021-07-31 18:46:14,714 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-3] getWeatherByAirportId finish
+2021-07-31 18:46:26,673 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 8540 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 18:46:26,690 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 18:46:26,693 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 18:46:30,196 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 4.16 seconds (JVM running for 8.743)
+2021-07-31 18:49:43,758 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 10016 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 18:49:43,775 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 18:49:43,777 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 18:49:45,970 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.771 seconds (JVM running for 6.62)
+2021-07-31 18:50:20,054 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId start-remi
+2021-07-31 18:50:20,055 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-1] getWeatherByAirport start/Finish-remi
+2021-07-31 18:50:59,187 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId finish
+2021-07-31 19:49:44,428 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 3900 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 19:49:44,442 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 19:49:44,444 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 19:49:46,644 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.942 seconds (JVM running for 6.809)
+2021-07-31 19:49:58,712 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId start-remi
+2021-07-31 19:49:58,714 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-1] getWeatherByAirport start/Finish-remi
+2021-07-31 19:50:53,066 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId finish
+2021-07-31 19:51:47,184 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 6856 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 19:51:47,198 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 19:51:47,200 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 19:51:49,363 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.784 seconds (JVM running for 6.435)
+2021-07-31 19:51:58,885 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId start-remi
+2021-07-31 19:51:58,887 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-1] getWeatherByAirport start/Finish-remi
+2021-07-31 19:52:38,196 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId finish
+2021-07-31 19:53:24,424 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-3] getWeatherByAirportId start-remi
+2021-07-31 19:53:24,426 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-3] getWeatherByAirport start/Finish-remi
+2021-07-31 19:54:18,924 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-3] getWeatherByAirportId finish
+2021-07-31 19:54:28,563 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 12820 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 19:54:28,578 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 19:54:28,580 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 19:54:30,632 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.659 seconds (JVM running for 6.281)
+2021-07-31 19:54:48,710 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId start-remi
+2021-07-31 19:54:48,713 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-1] getWeatherByAirport start/Finish-remi
+2021-07-31 19:55:19,093 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId finish
+2021-07-31 19:58:32,651 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-3] getWeatherByAirportId start-LFLB
+2021-07-31 19:58:32,652 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-3] getWeatherByAirport start/Finish-LFLB
+2021-07-31 19:58:39,811 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-3] getWeatherByAirportId finish
+2021-07-31 20:14:41,664 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 7620 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 20:14:41,680 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 20:14:41,682 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 20:14:43,658 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.651 seconds (JVM running for 6.033)
+2021-07-31 20:14:52,557 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId start-LFLB
+2021-07-31 20:14:52,558 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-1] getWeatherByAirport start/Finish-LFLB
+2021-07-31 20:16:23,446 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId finish
+2021-07-31 20:18:42,774 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 7916 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 20:18:42,785 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 20:18:42,786 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 20:18:44,553 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.219 seconds (JVM running for 4.409)
+2021-07-31 20:19:01,622 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId start-LFLB
+2021-07-31 20:19:01,624 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-1] getWeatherByAirport start/Finish-LFLB
+2021-07-31 20:19:03,420 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId finish
+2021-07-31 20:19:05,980 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-2] getWeatherByAirportId start-LFLB
+2021-07-31 20:19:05,980 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-2] getWeatherByAirport start/Finish-LFLB
+2021-07-31 20:19:07,230 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-2] getWeatherByAirportId finish
+2021-07-31 20:19:13,162 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-3] getWeatherByAirportId start-LFLBZ
+2021-07-31 20:19:13,163 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-3] getWeatherByAirport start/Finish-LFLBZ
+2021-07-31 20:19:14,462 WARN c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-3] The airport Id LFLBZ does not exist
+2021-07-31 20:19:14,462 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [http-nio-8082-exec-3] The airport Id LFLBZ does not exist
+2021-07-31 20:19:14,476 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]-log [http-nio-8082-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.e2lre.ivaomsv0.controler.exception.AirportIdtNotFoundException: The airport Id LFLBZ does not exist] with root cause
+com.e2lre.ivaomsv0.controler.exception.AirportIdtNotFoundException: The airport Id LFLBZ does not exist
+	at com.e2lre.ivaomsv0.controler.IvaoWeatherControler.getWeatherByAirportId(IvaoWeatherControler.java:34) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2021-07-31 20:19:24,711 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-4] getWeatherByAirportId start-LFLB
+2021-07-31 20:19:24,713 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-4] getWeatherByAirport start/Finish-LFLB
+2021-07-31 20:19:26,179 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-4] getWeatherByAirportId finish
+2021-07-31 20:20:51,894 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 11136 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 20:20:51,910 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 20:20:51,913 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 20:20:53,710 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.472 seconds (JVM running for 5.101)
+2021-07-31 20:21:04,042 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId start-LFLB
+2021-07-31 20:21:04,044 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-1] getWeatherByAirport start/Finish-LFLB
+2021-07-31 20:21:05,680 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId finish
+2021-07-31 20:21:11,061 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-2] getWeatherByAirportId start-LFLBZ
+2021-07-31 20:21:11,062 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-2] getWeatherByAirport start/Finish-LFLBZ
+2021-07-31 20:21:12,007 WARN c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-2] The airport Id LFLBZ does not exist
+2021-07-31 20:21:12,008 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [http-nio-8082-exec-2] The airport Id LFLBZ does not exist
+2021-07-31 20:21:22,426 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-3] getWeatherByAirportId start-LFLB
+2021-07-31 20:21:22,426 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-3] getWeatherByAirport start/Finish-LFLB
+2021-07-31 20:21:23,754 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-3] getWeatherByAirportId finish
+2021-07-31 20:24:25,428 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-6] getWeatherByAirportId start-Lfpg
+2021-07-31 20:24:25,429 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-6] getWeatherByAirport start/Finish-Lfpg
+2021-07-31 20:24:26,525 WARN c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-6] The airport Id Lfpg does not exist
+2021-07-31 20:24:26,526 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [http-nio-8082-exec-6] The airport Id Lfpg does not exist
+2021-07-31 20:24:40,071 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-7] getWeatherByAirportId start-LFPG
+2021-07-31 20:24:40,072 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-7] getWeatherByAirport start/Finish-LFPG
+2021-07-31 20:24:40,979 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-7] getWeatherByAirportId finish
+2021-07-31 20:25:04,024 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-8] getWeatherByAirportId start-LFPO
+2021-07-31 20:25:04,024 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-8] getWeatherByAirport start/Finish-LFPO
+2021-07-31 20:25:26,110 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-8] getWeatherByAirportId finish
+2021-07-31 20:25:43,344 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-9] getWeatherByAirportId start-GMTT
+2021-07-31 20:25:43,345 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-9] getWeatherByAirport start/Finish-GMTT
+2021-07-31 20:25:44,174 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-9] getWeatherByAirportId finish
+2021-07-31 20:26:07,116 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] getWeatherByAirportId start-LFLE
+2021-07-31 20:26:07,116 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-1] getWeatherByAirport start/Finish-LFLE
+2021-07-31 20:26:08,433 WARN c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-1] The airport Id LFLE does not exist
+2021-07-31 20:26:08,434 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [http-nio-8082-exec-1] The airport Id LFLE does not exist
+2021-07-31 20:26:16,729 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-2] getWeatherByAirportId start-LFLE
+2021-07-31 20:26:16,729 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-2] getWeatherByAirport start/Finish-LFLE
+2021-07-31 20:26:18,079 WARN c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-2] The airport Id LFLE does not exist
+2021-07-31 20:26:18,079 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [http-nio-8082-exec-2] The airport Id LFLE does not exist
+2021-07-31 20:26:32,215 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-3] getWeatherByAirportId start-LFBE
+2021-07-31 20:26:32,215 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-3] getWeatherByAirport start/Finish-LFBE
+2021-07-31 20:26:33,719 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-3] getWeatherByAirportId finish
+2021-07-31 20:26:41,455 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-4] getWeatherByAirportId start-LFBL
+2021-07-31 20:26:41,455 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-4] getWeatherByAirport start/Finish-LFBL
+2021-07-31 20:26:42,610 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-4] getWeatherByAirportId finish
+2021-07-31 20:26:51,866 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-6] getWeatherByAirportId start-LFLE
+2021-07-31 20:26:51,867 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-6] getWeatherByAirport start/Finish-LFLE
+2021-07-31 20:26:52,814 WARN c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-6] The airport Id LFLE does not exist
+2021-07-31 20:26:52,814 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [http-nio-8082-exec-6] The airport Id LFLE does not exist
+2021-07-31 20:26:58,844 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-7] getWeatherByAirportId start-LFMN
+2021-07-31 20:26:58,845 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-7] getWeatherByAirport start/Finish-LFMN
+2021-07-31 20:26:59,966 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-7] getWeatherByAirportId finish
+2021-07-31 20:27:11,113 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-10] getWeatherByAirportId start-VHHH
+2021-07-31 20:27:11,113 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-10] getWeatherByAirport start/Finish-VHHH
+2021-07-31 20:27:12,261 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-10] getWeatherByAirportId finish
+2021-07-31 20:27:25,721 INFO c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-8] getWeatherByAirportId start-LFLE
+2021-07-31 20:27:25,721 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherByAirport [http-nio-8082-exec-8] getWeatherByAirport start/Finish-LFLE
+2021-07-31 20:27:26,783 WARN c.e.i.c.IvaoWeatherControler-getWeatherByAirportId [http-nio-8082-exec-8] The airport Id LFLE does not exist
+2021-07-31 20:27:26,784 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [http-nio-8082-exec-8] The airport Id LFLE does not exist
+2021-07-31 20:30:21,779 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 12068 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 20:30:21,794 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 20:30:21,796 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 20:30:23,567 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.429 seconds (JVM running for 5.614)
+2021-07-31 20:32:41,462 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 4772 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 20:32:41,477 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 20:32:41,479 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 20:32:43,244 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.444 seconds (JVM running for 5.186)
+2021-07-31 20:32:53,782 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherByAirportId start-LFLE
+2021-07-31 20:32:53,782 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherByAirport start/Finish-LFLE
+2021-07-31 20:32:55,406 WARN c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] The airport Id LFLE does not exist
+2021-07-31 20:32:55,407 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [http-nio-8082-exec-1] The airport Id LFLE does not exist
+2021-07-31 20:33:01,880 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-2] getWeatherByAirportId start-LFPO
+2021-07-31 20:33:01,881 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-2] getWeatherByAirport start/Finish-LFPO
+2021-07-31 20:33:02,967 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-2] getWeatherByAirportId finish
