@@ -20,14 +20,14 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
     private static final Logger logger = LogManager.getLogger(IvaoWeatherServiceImpl.class);
     @Override
     /**
-     * give weather Observation for the airport 
+     * give weather Observation for the airport
      */
     public String getWeatherObsByAirport(String airportId) throws URISyntaxException, IOException, InterruptedException {
         String result = null;
-        HashMap<String, String> weatherAirportMap = new HashMap<>();
+        //HashMap<String, String> weatherAirportMap = new HashMap<>();
         logger.info("getWeatherObsByAirport start-"+airportId);
 
-        List<String> weatherAirportList = getWeateherObsAirportList();
+        List<String> weatherAirportList = getWeatherObsAirportList();
         if (weatherAirportList != null)  {
             result = getMapFromList(weatherAirportList," ").get(airportId);
         }
@@ -35,6 +35,26 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
             result = null;
         }
         logger.info("getWeatherObsByAirport Finish-"+airportId);
+        return result;
+    }
+
+    @Override
+    /**
+     * give weather prevition for the airport
+     */
+    public String getWeatherPrevByAirport(String airportId) throws URISyntaxException, IOException, InterruptedException {
+        String result = null;
+        //HashMap<String, String> weatherAirportMap = new HashMap<>();
+        logger.info("getWeatherPrevByAirport start-"+airportId);
+
+        List<String> weatherAirportList = getWeatherPrevAirportList();
+        if (weatherAirportList != null)  {
+            result = getMapFromList(weatherAirportList," ").get(airportId);
+        }
+        else {
+            result = null;
+        }
+        logger.info("getWeatherPrevByAirport Finish-"+airportId);
         return result;
     }
 
@@ -57,7 +77,7 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
      * Get weather observation for all the airport
      * @return list of weather observation
      */
-    private List<String> getWeateherObsAirportList(){
+    private List<String> getWeatherObsAirportList(){
         List<String> resultList = null;
         String airportList = null;
         try {
@@ -70,8 +90,7 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
            HttpResponse<String> response = HttpClient.newBuilder()
                    .build()
                    .send(request, HttpResponse.BodyHandlers.ofString()); // BodyHandler.asString());
-           //CompletableFuture<HttpHeaders> trailers = response. response.trailers();
-           airportList = response.body().toString();
+            airportList = response.body().toString();
 
             resultList = Arrays.asList(airportList.split("\n"));
 
@@ -88,9 +107,43 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
            logger.info("GetWeateherObsAirportList ERROR InterruptedException");
            resultList = null;
        }
-
-
         return resultList;
+    }
 
+    /**
+     * Get weather prevition for all the airport
+     * @return list of weather prevition
+     */
+    private List<String> getWeatherPrevAirportList(){
+        List<String> resultList = null;
+        String airportList = null;
+        try {
+            HttpRequest request = HttpRequest.newBuilder()
+                    .uri(new URI("http://wx.ivao.aero/taf.php"))
+                    .GET()
+                    .build();
+
+
+            HttpResponse<String> response = HttpClient.newBuilder()
+                    .build()
+                    .send(request, HttpResponse.BodyHandlers.ofString()); // BodyHandler.asString());
+            airportList = response.body().toString();
+
+            resultList = Arrays.asList(airportList.split("\n"));
+
+        }
+        catch (URISyntaxException e) {
+            logger.info("getWeatherPrevAirportList ERROR URISyntaxException");
+            resultList = null;
+        }
+        catch (IOException e) {
+            logger.info("getWeatherPrevAirportList ERROR IOException");
+            resultList = null;
+        }
+        catch (InterruptedException e) {
+            logger.info("getWeatherPrevAirportList ERROR InterruptedException");
+            resultList = null;
+        }
+        return resultList;
     }
 }

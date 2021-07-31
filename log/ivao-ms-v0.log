@@ -255,3 +255,11 @@ com.e2lre.ivaomsv0.controler.exception.AirportIdtNotFoundException: The airport 
 2021-07-31 22:03:15,041 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-4] getWeatherObsByAirport start-LFPG
 2021-07-31 22:03:16,154 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-4] getWeatherObsByAirport Finish-LFPG
 2021-07-31 22:03:16,155 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-4] getWeatherObsByAirportId finish
+2021-07-31 22:07:58,412 INFO c.e.i.IvaoMsV0ApplicationTests-logStarting [main] Starting IvaoMsV0ApplicationTests on PO709427VW10SC2 with PID 11180 (started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 22:07:58,453 DEBUG c.e.i.IvaoMsV0ApplicationTests-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 22:07:58,459 INFO c.e.i.IvaoMsV0ApplicationTests-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 22:08:03,160 INFO c.e.i.IvaoMsV0ApplicationTests-logStarted [main] Started IvaoMsV0ApplicationTests in 5.296 seconds (JVM running for 8.847)
+2021-07-31 22:10:17,500 INFO c.e.i.IvaoMsV0ApplicationTests-logStarting [main] Starting IvaoMsV0ApplicationTests on PO709427VW10SC2 with PID 8008 (started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 22:10:17,548 DEBUG c.e.i.IvaoMsV0ApplicationTests-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 22:10:17,554 INFO c.e.i.IvaoMsV0ApplicationTests-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 22:10:21,452 INFO c.e.i.IvaoMsV0ApplicationTests-logStarted [main] Started IvaoMsV0ApplicationTests in 4.44 seconds (JVM running for 7.865)

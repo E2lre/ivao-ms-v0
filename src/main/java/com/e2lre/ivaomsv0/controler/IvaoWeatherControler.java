@@ -20,7 +20,7 @@ public class IvaoWeatherControler {
     @Autowired
     private IvaoWeatherService ivaoWeatherService;
 
-    /*---------------------------  GET by id -----------------------------*/
+    /*---------------------------  GET weather observation by airport id -----------------------------*/
     @GetMapping(value = "airportWeatherObs/{airportId}")
     @ResponseStatus(HttpStatus.OK)
     public String getWeatherObsByAirportId(@PathVariable String airportId) throws AirportIdtNotFoundException {
@@ -48,6 +48,34 @@ public class IvaoWeatherControler {
         }
         logger.info("getWeatherObsByAirportId finish");
         return result;
+    }
+    /*---------------------------  GET weather prevition by airport id -----------------------------*/
+    @GetMapping(value = "airportWeatherPrev/{airportId}")
+    @ResponseStatus(HttpStatus.OK)
+    public String getWeatherPrevByAirportId(@PathVariable String airportId) throws AirportIdtNotFoundException {
 
+        logger.info("getWeatherPrevByAirportId start-" + airportId);
+        String result = null;
+        try {
+            result = ivaoWeatherService.getWeatherPrevByAirport(airportId);
+            if (result == null) {
+                logger.warn("The airport Id " + airportId + " does not exist");
+                throw new AirportIdtNotFoundException("The airport Id " + airportId + " does not exist");
+            }
+        }
+        catch (URISyntaxException e) {
+            logger.info("getWeatherPrevByAirportId ERROR URISyntaxException");
+            result = "ERROR";
+        }
+        catch (IOException e) {
+            logger.info("getWeatherPrevByAirportId ERROR IOException");
+            result = "ERROR";
+        }
+        catch (InterruptedException e) {
+            logger.info("getWeatherPrevByAirportId ERROR InterruptedException");
+            result = "ERROR";
+        }
+        logger.info("getWeatherPrevByAirportId finish");
+        return result;
     }
 }
