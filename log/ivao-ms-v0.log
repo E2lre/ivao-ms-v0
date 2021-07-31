@@ -207,3 +207,51 @@ com.e2lre.ivaomsv0.controler.exception.AirportIdtNotFoundException: The airport 
 2021-07-31 20:33:01,880 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-2] getWeatherByAirportId start-LFPO
 2021-07-31 20:33:01,881 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-2] getWeatherByAirport start/Finish-LFPO
 2021-07-31 20:33:02,967 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-2] getWeatherByAirportId finish
+2021-07-31 20:34:40,791 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 12992 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 20:34:40,805 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 20:34:40,806 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 20:34:42,389 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.191 seconds (JVM running for 4.749)
+2021-07-31 20:34:50,870 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId start-LFPO
+2021-07-31 20:34:50,872 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport start-LFPO
+2021-07-31 20:34:52,079 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport Finish-LFPO
+2021-07-31 20:34:52,081 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId finish
+2021-07-31 20:34:56,065 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-2] getWeatherObsByAirportId start-LFPOZ
+2021-07-31 20:34:56,065 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-2] getWeatherObsByAirport start-LFPOZ
+2021-07-31 20:34:57,039 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-2] getWeatherObsByAirport Finish-LFPOZ
+2021-07-31 20:34:57,040 WARN c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-2] The airport Id LFPOZ does not exist
+2021-07-31 20:34:57,041 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [http-nio-8082-exec-2] The airport Id LFPOZ does not exist
+2021-07-31 21:59:54,161 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 7760 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 21:59:54,181 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 21:59:54,184 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 21:59:56,139 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.65 seconds (JVM running for 5.46)
+2021-07-31 22:00:06,098 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId start-LFPO
+2021-07-31 22:00:06,099 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport start-LFPO
+2021-07-31 22:00:08,265 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport Finish-LFPO
+2021-07-31 22:00:08,265 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId finish
+2021-07-31 22:00:12,891 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-2] getWeatherObsByAirportId start-LFPOZ
+2021-07-31 22:00:12,891 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-2] getWeatherObsByAirport start-LFPOZ
+2021-07-31 22:00:14,510 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-2] getWeatherObsByAirport Finish-LFPOZ
+2021-07-31 22:00:14,511 WARN c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-2] The airport Id LFPOZ does not exist
+2021-07-31 22:00:14,511 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [http-nio-8082-exec-2] The airport Id LFPOZ does not exist
+2021-07-31 22:02:50,060 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 13716 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 22:02:50,071 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 22:02:50,073 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 22:02:51,657 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.353 seconds (JVM running for 5.419)
+2021-07-31 22:02:58,607 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId start-LFPOZ
+2021-07-31 22:02:58,608 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport start-LFPOZ
+2021-07-31 22:02:59,806 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport Finish-LFPOZ
+2021-07-31 22:02:59,806 WARN c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] The airport Id LFPOZ does not exist
+2021-07-31 22:02:59,807 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [http-nio-8082-exec-1] The airport Id LFPOZ does not exist
+2021-07-31 22:03:02,484 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-2] getWeatherObsByAirportId start-LFPO
+2021-07-31 22:03:02,485 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-2] getWeatherObsByAirport start-LFPO
+2021-07-31 22:03:03,496 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-2] getWeatherObsByAirport Finish-LFPO
+2021-07-31 22:03:03,497 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-2] getWeatherObsByAirportId finish
+2021-07-31 22:03:09,158 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-3] getWeatherObsByAirportId start-LFLE
+2021-07-31 22:03:09,159 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-3] getWeatherObsByAirport start-LFLE
+2021-07-31 22:03:10,465 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-3] getWeatherObsByAirport Finish-LFLE
+2021-07-31 22:03:10,466 WARN c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-3] The airport Id LFLE does not exist
+2021-07-31 22:03:10,466 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [http-nio-8082-exec-3] The airport Id LFLE does not exist
+2021-07-31 22:03:15,040 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-4] getWeatherObsByAirportId start-LFPG
+2021-07-31 22:03:15,041 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-4] getWeatherObsByAirport start-LFPG
+2021-07-31 22:03:16,154 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-4] getWeatherObsByAirport Finish-LFPG
+2021-07-31 22:03:16,155 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-4] getWeatherObsByAirportId finish

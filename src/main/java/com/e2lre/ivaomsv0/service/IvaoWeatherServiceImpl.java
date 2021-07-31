@@ -19,19 +19,17 @@ import java.util.List;
 public class IvaoWeatherServiceImpl implements IvaoWeatherService {
     private static final Logger logger = LogManager.getLogger(IvaoWeatherServiceImpl.class);
     @Override
+    /**
+     * give weather Observation for the airport 
+     */
     public String getWeatherObsByAirport(String airportId) throws URISyntaxException, IOException, InterruptedException {
         String result = null;
         HashMap<String, String> weatherAirportMap = new HashMap<>();
         logger.info("getWeatherObsByAirport start-"+airportId);
 
-        List<String> weatherAirportList = GetWeateherObsAirportList();
+        List<String> weatherAirportList = getWeateherObsAirportList();
         if (weatherAirportList != null)  {
-            for( String weatherAirport : weatherAirportList){
-               List<String> weatherInfo = Arrays.asList(weatherAirport.split(" "));
-               weatherAirportMap.put(weatherInfo.get(0),weatherAirport);
-            }
-            result = weatherAirportMap.get(airportId);
-
+            result = getMapFromList(weatherAirportList," ").get(airportId);
         }
         else {
             result = null;
@@ -40,8 +38,26 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
         return result;
     }
 
+    /**
+     * Transfort list with separator to a map.the key map will be the first element of rach line
+     * @param myList list to be transfort
+     * @param separator list séparator
+     * @return map from the list
+     */
+    private HashMap<String, String> getMapFromList(List<String> myList, String separator) {
+        HashMap<String, String> myMap = new HashMap<>();
+        for( String e : myList){
+            List<String> weatherInfo = Arrays.asList(e.split(separator));
+            myMap.put(weatherInfo.get(0),e);
+        }
+        return myMap;
+    }
 
-    private List<String> GetWeateherObsAirportList(){
+    /**
+     * Get weather observation for all the airport
+     * @return list of weather observation
+     */
+    private List<String> getWeateherObsAirportList(){
         List<String> resultList = null;
         String airportList = null;
         try {
