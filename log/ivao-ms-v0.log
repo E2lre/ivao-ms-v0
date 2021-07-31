@@ -263,3 +263,29 @@ com.e2lre.ivaomsv0.controler.exception.AirportIdtNotFoundException: The airport 
 2021-07-31 22:10:17,548 DEBUG c.e.i.IvaoMsV0ApplicationTests-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
 2021-07-31 22:10:17,554 INFO c.e.i.IvaoMsV0ApplicationTests-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
 2021-07-31 22:10:21,452 INFO c.e.i.IvaoMsV0ApplicationTests-logStarted [main] Started IvaoMsV0ApplicationTests in 4.44 seconds (JVM running for 7.865)
+2021-07-31 22:20:52,187 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 6840 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-07-31 22:20:52,201 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-07-31 22:20:52,203 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-07-31 22:20:54,240 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.716 seconds (JVM running for 6.314)
+2021-07-31 22:21:01,507 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId start-LFPG
+2021-07-31 22:21:01,507 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport start-LFPG
+2021-07-31 22:21:23,369 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport Finish-LFPG
+2021-07-31 22:21:25,960 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId finish
+2021-07-31 22:21:46,146 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-2] getWeatherPrevByAirportId start-LFPG
+2021-07-31 22:21:50,288 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-2] getWeatherPrevByAirport start-LFPG
+2021-07-31 22:23:19,715 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-2] getWeatherPrevByAirport Finish-LFPG
+2021-07-31 22:23:25,852 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-2] getWeatherPrevByAirportId finish
+2021-07-31 22:23:44,061 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-4] getWeatherPrevByAirportId start-LFPGZ
+2021-07-31 22:23:48,802 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-4] getWeatherPrevByAirport start-LFPGZ
+2021-07-31 22:24:01,066 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-4] getWeatherPrevByAirport Finish-LFPGZ
+2021-07-31 22:24:15,212 WARN c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-4] The airport Id LFPGZ does not exist
+2021-07-31 22:24:15,216 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [http-nio-8082-exec-4] The airport Id LFPGZ does not exist
+2021-07-31 22:24:25,636 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-5] getWeatherPrevByAirportId start-LFFE
+2021-07-31 22:24:34,538 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-5] getWeatherPrevByAirport start-LFFE
+2021-07-31 22:25:08,195 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-5] getWeatherPrevByAirport Finish-LFFE
+2021-07-31 22:25:08,196 WARN c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-5] The airport Id LFFE does not exist
+2021-07-31 22:25:08,197 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [http-nio-8082-exec-5] The airport Id LFFE does not exist
+2021-07-31 22:25:19,852 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-7] getWeatherPrevByAirportId start-LFPO
+2021-07-31 22:25:25,724 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-7] getWeatherPrevByAirport start-LFPO
+2021-07-31 22:25:30,558 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-7] getWeatherPrevByAirport Finish-LFPO
+2021-07-31 22:25:30,559 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-7] getWeatherPrevByAirportId finish
