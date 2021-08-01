@@ -1,6 +1,9 @@
 package com.e2lre.ivaomsv0.controler;
 
 import com.e2lre.ivaomsv0.controler.exception.AirportIdtNotFoundException;
+import com.e2lre.ivaomsv0.controler.exception.CallsignNotFoundException;
+import com.e2lre.ivaomsv0.controler.exception.VidNotFoundException;
+import com.e2lre.ivaomsv0.model.PilotATC;
 import com.e2lre.ivaomsv0.service.IvaoWeatherService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -76,6 +79,66 @@ public class IvaoWeatherControler {
             result = "ERROR";
         }
         logger.info("getWeatherPrevByAirportId finish");
+        return result;
+    }
+    /*---------------------------  GET pilot Info by callsign -----------------------------*/
+    @GetMapping(value = "pilotInfoCallsign/{callsign}")
+    @ResponseStatus(HttpStatus.OK)
+    public PilotATC getPilotInfoByCallsign(@PathVariable String callsign) throws CallsignNotFoundException {
+
+        logger.info("getPilotInfoByCallsign start-" + callsign);
+        PilotATC result = null;
+            result = ivaoWeatherService.getPilotInfoByCallsign(callsign);
+            if (result == null) {
+                logger.warn("The callsign " + callsign + " does not exist or is not a Pilot");
+                throw new CallsignNotFoundException("The callsign " + callsign + " does not exist or is not a Pilot");
+            }
+        logger.info("getPilotInfoByCallsign finish");
+        return result;
+    }
+    /*---------------------------  GET pilot info by VID -----------------------------*/
+    @GetMapping(value = "pilotInfoVID/{vid}")
+    @ResponseStatus(HttpStatus.OK)
+    public PilotATC getPilotInfoByVid(@PathVariable String vid) throws VidNotFoundException {
+
+        logger.info("getPilotInfoByVid start-" + vid);
+        PilotATC result = null;
+        result = ivaoWeatherService.getPilotInfoByVid(vid);
+        if (result == null) {
+            logger.warn("The vid " + vid + " does not exist or is not a pilot");
+            throw new VidNotFoundException("The vid " + vid + " does not exist  or is not a pilot\"");
+        }
+        logger.info("getPilotInfoByVid finish");
+        return result;
+    }
+    /*---------------------------  GET ATIS info by VID -----------------------------*/
+    @GetMapping(value = "ATISInfoVID/{vid}")
+    @ResponseStatus(HttpStatus.OK)
+    public PilotATC getATISInfoByVid(@PathVariable String vid) throws VidNotFoundException {
+
+        logger.info("getATISInfoByVid start-" + vid);
+        PilotATC result = null;
+        result = ivaoWeatherService.getATISInfoByVid(vid);
+        if (result == null) {
+            logger.warn("The vid " + vid + " does not exist or is not a ATIS");
+            throw new VidNotFoundException("The vid " + vid + " does not exist  or is not an ATIS");
+        }
+        logger.info("getATISInfoByVid finish");
+        return result;
+    }
+    /*---------------------------  GET ATIS info by VID -----------------------------*/
+    @GetMapping(value = "FOLMEInfoVID/{vid}")
+    @ResponseStatus(HttpStatus.OK)
+    public PilotATC getFOLMEInfoByVid(@PathVariable String vid) throws VidNotFoundException {
+
+        logger.info("getFOLMEInfoByVid start-" + vid);
+        PilotATC result = null;
+        result = ivaoWeatherService.getFOLMEInfoByVid(vid);
+        if (result == null) {
+            logger.warn("The vid " + vid + " does not exist or is not a FOLME");
+            throw new VidNotFoundException("The vid " + vid + " does not exist  or is not an FOLME");
+        }
+        logger.info("getFOLMEInfoByVid finish");
         return result;
     }
 }
