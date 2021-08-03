@@ -391,3 +391,11 @@ java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
 2021-08-03 23:22:00,256 INFO c.e.i.s.IvaoWeatherServiceImpl-getWhazuppFromJSON [http-nio-8082-exec-4] getWhazuppFromJSON - End
 2021-08-03 23:22:00,257 WARN c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-4] The vid 645928z does not exist or is not a ATC
 2021-08-03 23:22:00,258 ERROR c.e.i.c.e.VidNotFoundException-<init> [http-nio-8082-exec-4] The vid 645928z does not exist  or is not an ATC
+2021-08-03 23:35:34,225 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 10528 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-08-03 23:35:34,236 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-03 23:35:34,239 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-03 23:35:36,152 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.546 seconds (JVM running for 6.205)
+2021-08-03 23:36:08,112 INFO c.e.i.IvaoMsV0ApplicationTests-logStarting [main] Starting IvaoMsV0ApplicationTests on PO709427VW10SC2 with PID 2608 (started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-08-03 23:36:08,181 DEBUG c.e.i.IvaoMsV0ApplicationTests-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-03 23:36:08,193 INFO c.e.i.IvaoMsV0ApplicationTests-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-03 23:36:14,808 INFO c.e.i.IvaoMsV0ApplicationTests-logStarted [main] Started IvaoMsV0ApplicationTests in 7.375 seconds (JVM running for 13.114)
