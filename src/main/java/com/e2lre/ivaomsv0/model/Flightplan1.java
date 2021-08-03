@@ -1,6 +1,6 @@
 package com.e2lre.ivaomsv0.model;
 
-public class Flightplan {
+public class Flightplan1 {
     // All information are in https://wiki.ivao.aero/en/home/devops/api/whazuup/file-format
     private String aircraft; //Pilot
     private String cruisingSpeed; //Pilot
@@ -22,10 +22,10 @@ public class Flightplan {
     private String TypeOfFlight; //Pilot
     private String PersonsOnBoard; //Pilot
 
-    public Flightplan() {
+    public Flightplan1() {
     }
 
-    public Flightplan(String aircraft, String cruisingSpeed, String departureAerodrome, String cruisingLevel, String destinationAerodrome, String revision, String flightRules, String departureTime, String actualDepartureTime, String EETHours, String EETMinutes, String enduranceHours, String enduranceMinutes, String alternateAerodrome, String otherInfo, String route, String secondndAlternateAerodrome, String typeOfFlight, String personsOnBoard) {
+    public Flightplan1(String aircraft, String cruisingSpeed, String departureAerodrome, String cruisingLevel, String destinationAerodrome, String revision, String flightRules, String departureTime, String actualDepartureTime, String EETHours, String EETMinutes, String enduranceHours, String enduranceMinutes, String alternateAerodrome, String otherInfo, String route, String secondndAlternateAerodrome, String typeOfFlight, String personsOnBoard) {
         this.aircraft = aircraft;
         this.cruisingSpeed = cruisingSpeed;
         this.departureAerodrome = departureAerodrome;

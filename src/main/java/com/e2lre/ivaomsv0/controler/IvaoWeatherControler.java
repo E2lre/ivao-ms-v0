@@ -4,6 +4,10 @@ import com.e2lre.ivaomsv0.controler.exception.AirportIdtNotFoundException;
 import com.e2lre.ivaomsv0.controler.exception.CallsignNotFoundException;
 import com.e2lre.ivaomsv0.controler.exception.VidNotFoundException;
 import com.e2lre.ivaomsv0.model.PilotATC;
+import com.e2lre.ivaomsv0.model.ivao.Atc;
+import com.e2lre.ivaomsv0.model.ivao.Pilot;
+import com.e2lre.ivaomsv0.model.ivao.Server;
+import com.e2lre.ivaomsv0.model.ivao.Whazuup;
 import com.e2lre.ivaomsv0.service.IvaoWeatherService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -16,6 +20,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 public class IvaoWeatherControler {
@@ -24,6 +30,13 @@ public class IvaoWeatherControler {
     private IvaoWeatherService ivaoWeatherService;
 
     /*---------------------------  GET weather observation by airport id -----------------------------*/
+
+    /**
+     * Get Weather Observation By Airport Id
+     * @param airportId airportId
+     * @return Weather Observation
+     * @throws AirportIdtNotFoundException if airportId not found
+     */
     @GetMapping(value = "airportWeatherObs/{airportId}")
     @ResponseStatus(HttpStatus.OK)
     public String getWeatherObsByAirportId(@PathVariable String airportId) throws AirportIdtNotFoundException {
@@ -53,6 +66,13 @@ public class IvaoWeatherControler {
         return result;
     }
     /*---------------------------  GET weather prevition by airport id -----------------------------*/
+
+    /**
+     * Get Weather Previtions By Airport Id
+     * @param airportId airportId
+     * @return Weather Previtions
+     * @throws AirportIdtNotFoundException if airportId not found
+     */
     @GetMapping(value = "airportWeatherPrev/{airportId}")
     @ResponseStatus(HttpStatus.OK)
     public String getWeatherPrevByAirportId(@PathVariable String airportId) throws AirportIdtNotFoundException {
@@ -82,9 +102,10 @@ public class IvaoWeatherControler {
         return result;
     }
     /*---------------------------  GET pilot Info by callsign -----------------------------*/
-    @GetMapping(value = "pilotInfoCallsign/{callsign}")
+    @Deprecated
+    @GetMapping(value = "pilotInfoCallsignOLD/{callsign}")
     @ResponseStatus(HttpStatus.OK)
-    public PilotATC getPilotInfoByCallsign(@PathVariable String callsign) throws CallsignNotFoundException {
+    public PilotATC getPilotInfoByCallsignOLD(@PathVariable String callsign) throws CallsignNotFoundException {
 
         logger.info("getPilotInfoByCallsign start-" + callsign);
         PilotATC result = null;
@@ -97,9 +118,10 @@ public class IvaoWeatherControler {
         return result;
     }
     /*---------------------------  GET pilot info by VID -----------------------------*/
-    @GetMapping(value = "pilotInfoVID/{vid}")
+    @Deprecated
+    @GetMapping(value = "pilotInfoVIDOLD/{vid}")
     @ResponseStatus(HttpStatus.OK)
-    public PilotATC getPilotInfoByVid(@PathVariable String vid) throws VidNotFoundException {
+    public PilotATC getPilotInfoByVidOLD(@PathVariable String vid) throws VidNotFoundException {
 
         logger.info("getPilotInfoByVid start-" + vid);
         PilotATC result = null;
@@ -111,10 +133,56 @@ public class IvaoWeatherControler {
         logger.info("getPilotInfoByVid finish");
         return result;
     }
-    /*---------------------------  GET ATIS info by VID -----------------------------*/
-    @GetMapping(value = "ATISInfoVID/{vid}")
+    /*---------------------------  GET pilot info by VID -----------------------------*/
+
+    /**
+     * Get Pilot Information By Vid
+     * @param vid VID
+     * @return Pilot Information
+     * @throws VidNotFoundException if vid not found
+     */
+    @GetMapping(value = "pilotInfoVID/{vid}")
     @ResponseStatus(HttpStatus.OK)
-    public PilotATC getATISInfoByVid(@PathVariable String vid) throws VidNotFoundException {
+    public Pilot getPilotInfoByVid(@PathVariable String vid) throws VidNotFoundException {
+
+        logger.info("getPilotInfoByVid start-" + vid);
+        Pilot result = null;
+        //result = ivaoWeatherService.getPilotInfoByVid(vid);
+        result = ivaoWeatherService.getPilotInfoByVid2(vid);
+        if (result == null) {
+            logger.warn("The vid " + vid + " does not exist or is not a pilot");
+            throw new VidNotFoundException("The vid " + vid + " does not exist  or is not a pilot\"");
+        }
+        logger.info("getPilotInfoByVid finish");
+        return result;
+    }
+    /*---------------------------  GET ATC info by VID -----------------------------*/
+
+    /**
+     * Get ATC Information By Vid
+     * @param vid VID
+     * @return ATC Information
+     * @throws VidNotFoundException if vid not found
+     */
+    @GetMapping(value = "ATCInfoVID/{vid}")
+    @ResponseStatus(HttpStatus.OK)
+    public Atc getATCInfoByVid(@PathVariable String vid) throws VidNotFoundException {
+
+        logger.info("getATCInfoByVid start-" + vid);
+        Atc result = null;
+        result = ivaoWeatherService.getATCInfoByVid(vid);
+        if (result == null) {
+            logger.warn("The vid " + vid + " does not exist or is not a ATC");
+            throw new VidNotFoundException("The vid " + vid + " does not exist  or is not an ATC");
+        }
+        logger.info("getATCInfoByVid finish");
+        return result;
+    }
+    /*---------------------------  GET ATIS info by VID -----------------------------*/
+    @Deprecated
+    @GetMapping(value = "ATISInfoVIDOLD/{vid}")
+    @ResponseStatus(HttpStatus.OK)
+    public PilotATC getATISInfoByVidOLD(@PathVariable String vid) throws VidNotFoundException {
 
         logger.info("getATISInfoByVid start-" + vid);
         PilotATC result = null;
@@ -127,9 +195,10 @@ public class IvaoWeatherControler {
         return result;
     }
     /*---------------------------  GET ATIS info by VID -----------------------------*/
-    @GetMapping(value = "FOLMEInfoVID/{vid}")
+    @Deprecated
+    @GetMapping(value = "FOLMEInfoVIDOLD/{vid}")
     @ResponseStatus(HttpStatus.OK)
-    public PilotATC getFOLMEInfoByVid(@PathVariable String vid) throws VidNotFoundException {
+    public PilotATC getFOLMEInfoByVidOLD(@PathVariable String vid) throws VidNotFoundException {
 
         logger.info("getFOLMEInfoByVid start-" + vid);
         PilotATC result = null;
@@ -140,5 +209,30 @@ public class IvaoWeatherControler {
         }
         logger.info("getFOLMEInfoByVid finish");
         return result;
+    }
+
+    /*---------------------------  Test whazuup -----------------------------*/
+
+    /**
+     * test json generation
+     * @return whazuup json
+     */
+    @GetMapping(value = "TestWazuup")
+    @ResponseStatus(HttpStatus.OK)
+    public Whazuup TestWazuup(){
+
+        logger.info("TestWazuup start" );
+       Whazuup whazuupResult = new Whazuup();
+       whazuupResult.setUpdatedAt("1234");
+        Server server = new Server();
+        server.setId("1");
+        server.setHostname("TOTO");
+        List<Server> servers = new ArrayList<>();
+        servers.add(server);
+        server.setId("2");
+        server.setHostname("TITI");
+        servers.add(server);
+        whazuupResult.setServers(servers);
+        return whazuupResult;
     }
 }

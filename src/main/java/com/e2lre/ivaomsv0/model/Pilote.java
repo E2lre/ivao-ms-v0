@@ -9,12 +9,12 @@ public class Pilote {
     private String onGround; //Pilot
     private String simulator; //Pilot
     private String plane; //Pilot
-    private Flightplan flightplan;
+    private Flightplan1 flightplan1;
 
     public Pilote() {
     }
 
-    public Pilote(String groundSpeed, String transponderCode, String facilityType, String visualRange, String onGround, String simulator, String plane, Flightplan flightplan) {
+    public Pilote(String groundSpeed, String transponderCode, String facilityType, String visualRange, String onGround, String simulator, String plane, Flightplan1 flightplan1) {
         this.groundSpeed = groundSpeed;
         this.transponderCode = transponderCode;
         this.facilityType = facilityType;
@@ -22,7 +22,7 @@ public class Pilote {
         this.onGround = onGround;
         this.simulator = simulator;
         this.plane = plane;
-        this.flightplan = flightplan;
+        this.flightplan1 = flightplan1;
     }
 
     public String getGroundSpeed() {
@@ -81,12 +81,12 @@ public class Pilote {
         this.plane = plane;
     }
 
-    public Flightplan getFlightplan() {
-        return flightplan;
+    public Flightplan1 getFlightplan1() {
+        return flightplan1;
     }
 
-    public void setFlightplan(Flightplan flightplan) {
-        this.flightplan = flightplan;
+    public void setFlightplan1(Flightplan1 flightplan1) {
+        this.flightplan1 = flightplan1;
     }
 
     @Override
@@ -99,7 +99,7 @@ public class Pilote {
                 ", onGround='" + onGround + '\'' +
                 ", simulator='" + simulator + '\'' +
                 ", plane='" + plane + '\'' +
-                ", flightplan=" + flightplan +
+                ", flightplan=" + flightplan1 +
                 '}';
     }
 }
