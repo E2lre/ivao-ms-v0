@@ -7,6 +7,7 @@ import com.e2lre.ivaomsv0.model.ivao.Whazuup;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -25,18 +26,21 @@ import java.util.ResourceBundle;
 @Service
 public class IvaoWeatherServiceImpl implements IvaoWeatherService {
     private static final Logger logger = LogManager.getLogger(IvaoWeatherServiceImpl.class);
+    @Autowired
+    private IvaoUtilService ivaoUtilService;
+
     @Override
     /**
      * give weather Observation for the airport  whith ivao API V1
      */
-    public String getWeatherObsByAirport(String airportId) throws URISyntaxException, IOException, InterruptedException {
+    public String getWeatherObsByAirport(String airportId) /*throws URISyntaxException, IOException, InterruptedException*/ {
         String result = null;
         //HashMap<String, String> weatherAirportMap = new HashMap<>();
         logger.info("getWeatherObsByAirport start-"+airportId);
 
-        List<String> weatherAirportList = getWeatherObsAirportList();
+        List<String> weatherAirportList = ivaoUtilService.getWeatherObsAirportList();
         if (weatherAirportList != null)  {
-            result = getMapFromList(weatherAirportList," ",0).get(airportId);
+            result = ivaoUtilService.getMapFromList(weatherAirportList," ",0).get(airportId);
         }
         else {
             result = null;
@@ -49,14 +53,14 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
     /**
      * give weather prevition for the airport  whith ivao API V1
      */
-    public String getWeatherPrevByAirport(String airportId) throws URISyntaxException, IOException, InterruptedException {
+    public String getWeatherPrevByAirport(String airportId) /*throws URISyntaxException, IOException, InterruptedException*/ {
         String result = null;
         //HashMap<String, String> weatherAirportMap = new HashMap<>();
         logger.info("getWeatherPrevByAirport start-"+airportId);
 
-        List<String> weatherAirportList = getWeatherPrevAirportList();
+        List<String> weatherAirportList = ivaoUtilService.getWeatherPrevAirportList();
         if (weatherAirportList != null)  {
-            result = getMapFromList(weatherAirportList," ",0).get(airportId);
+            result = ivaoUtilService.getMapFromList(weatherAirportList," ",0).get(airportId);
         }
         else {
             result = null;
@@ -74,9 +78,9 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
     @Override
     public PilotATC getPilotInfoByCallsign(String callsign) {
         PilotATC piloteATCResults = null;
-        List<String> pilotInfoList = getPilotInfoList();
+        List<String> pilotInfoList = ivaoUtilService.getPilotInfoList();
         if (pilotInfoList != null) {
-            String result = getMapFromList(pilotInfoList,":",0).get(callsign);
+            String result = ivaoUtilService.getMapFromList(pilotInfoList,":",0).get(callsign);
             logger.info(result);
             if (result != null) {
                 piloteATCResults = transfortStringToPilotATC(result);
@@ -99,9 +103,9 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
     @Override
     public PilotATC getPilotInfoByVid(String vid) {
         PilotATC piloteATCResults = null;
-        List<String> pilotInfoList = getPilotInfoList();
+        List<String> pilotInfoList = ivaoUtilService.getPilotInfoList();
         if (pilotInfoList != null) {
-            String result = getMapFromList(pilotInfoList,":",1).get(vid);
+            String result = ivaoUtilService.getMapFromList(pilotInfoList,":",1).get(vid);
             logger.info(result);
             if (result != null) {
                 piloteATCResults = transfortStringToPilotATC(result);
@@ -123,12 +127,12 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
     @Override
     public Pilot getPilotInfoByVid2(String vid) {
         Pilot piloteResult = null;
-        String pilotInfoList = getPilotInfoList2();
+        String pilotInfoList = ivaoUtilService.getPilotInfoList2();
         if (pilotInfoList != null) {
-            Whazuup whazuup = getWhazuppFromJSON(pilotInfoList);
+            Whazuup whazuup = ivaoUtilService.getWhazuppFromJSON(pilotInfoList);
             if (whazuup != null) {
                 List<Pilot> piloteResults =  whazuup.getClients().getPilots();
-                piloteResult = findPilotByVid(piloteResults,vid);
+                piloteResult = ivaoUtilService.findPilotByVid(piloteResults,vid);
 
             }
         }
@@ -143,12 +147,12 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
     @Override
     public Atc getATCInfoByVid(String vid) {
         Atc atcResult = null;
-        String atcInfoList = getPilotInfoList2();
+        String atcInfoList = ivaoUtilService.getPilotInfoList2();
         if (atcInfoList != null) {
-            Whazuup whazuup = getWhazuppFromJSON(atcInfoList);
+            Whazuup whazuup = ivaoUtilService.getWhazuppFromJSON(atcInfoList);
             if (whazuup != null) {
                 List<Atc> atcResults = whazuup.getClients().getAtcs();
-                atcResult = findAtcByVid(atcResults,vid);
+                atcResult = ivaoUtilService.findAtcByVid(atcResults,vid);
 
             }
         }
@@ -165,9 +169,9 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
     @Override
     public PilotATC getATISInfoByVid(String vid) {
         PilotATC piloteATCResults = null;
-        List<String> atcInfoList = getPilotInfoList();
+        List<String> atcInfoList = ivaoUtilService.getPilotInfoList();
         if (atcInfoList != null) {
-            String result = getMapFromList(atcInfoList,":",1).get(vid);
+            String result = ivaoUtilService.getMapFromList(atcInfoList,":",1).get(vid);
             logger.info(result);
             if (result != null) {
                 piloteATCResults = transfortStringToPilotATC(result);
@@ -190,9 +194,9 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
     @Override
     public PilotATC getFOLMEInfoByVid(String vid) {
         PilotATC piloteATCResults = null;
-        List<String> atcInfoList = getPilotInfoList();
+        List<String> atcInfoList = ivaoUtilService.getPilotInfoList();
         if (atcInfoList != null) {
-            String result = getMapFromList(atcInfoList,":",1).get(vid);
+            String result = ivaoUtilService.getMapFromList(atcInfoList,":",1).get(vid);
             logger.info(result);
             if (result != null) {
                 piloteATCResults = transfortStringToPilotATC(result);
@@ -205,7 +209,7 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
         return piloteATCResults;
     }
 
-
+/*
     private Atc findAtcByVid(List<Atc> atcs,String vid) {
         Atc atcResult = null;
         for (Atc a : atcs){
@@ -225,11 +229,7 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
         return piloteResult;
     }
 
-    /**
-     * convert JSON format to whazuup Object
-     * @param myJson data in json format from ivao API V2
-     * @return whazuup object
-     */
+
     private  Whazuup  getWhazuppFromJSON(String myJson)  {
         logger.info ("getWhazuppFromJSON - Start");
         ObjectMapper objectMapper = new ObjectMapper();
@@ -246,14 +246,15 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
 
 
     }
-
+*/
     /**
      * Transfort list with separator to a map.the key map will be the first element of rach line
      * @param myList list to be transfort
      * @param separator list séparator
      * @return map from the list
      */
-    private HashMap<String, String> getMapFromList(List<String> myList, String separator,int keyPosition) {
+  /*  @Override
+    public HashMap<String, String> getMapFromList(List<String> myList, String separator,int keyPosition) {
         HashMap<String, String> myMap = new HashMap<>();
         int position;
         for( String e : myList){
@@ -267,7 +268,7 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
 
         }
         return myMap;
-    }
+    }*/
 
     /**
      * convert pilotatc list from ivao API V1 in pilotATC object
@@ -342,7 +343,8 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
      * Get weather observation for all the airport
      * @return list of weather observation
      */
-    private List<String> getWeatherObsAirportList(){
+   /* @Override
+    public List<String> getWeatherObsAirportList(){
         List<String> resultList = null;
         String airportList = null;
         try {
@@ -354,10 +356,6 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
                     .GET()
                     .build();
 
-            /*HttpRequest request = HttpRequest.newBuilder()
-                   .uri(new URI("http://wx.ivao.aero/metar.php"))
-                   .GET()
-                   .build();*/
 
            HttpResponse<String> response = HttpClient.newBuilder()
                    .build()
@@ -381,12 +379,12 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
        }
         return resultList;
     }
-
+*/
     /**
      * Get weather prevition for all the airport
      * @return list of weather prevition
      */
-    private List<String> getWeatherPrevAirportList(){
+  /*  private List<String> getWeatherPrevAirportList(){
         List<String> resultList = null;
         String airportList = null;
         try {
@@ -397,11 +395,6 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
                     .uri(new URI(url))
                     .GET()
                     .build();
-
-            /*HttpRequest request = HttpRequest.newBuilder()
-                    .uri(new URI("http://wx.ivao.aero/taf.php"))
-                    .GET()
-                    .build();*/
 
             HttpResponse<String> response = HttpClient.newBuilder()
                     .build()
@@ -425,12 +418,12 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
         }
         return resultList;
     }
-
+*/
     /**
      * Get weather prevition for all the airport from ivao API V1
      * @return list of weather prevition
      */
-    @Deprecated
+ /*   @Deprecated
     private List<String> getPilotInfoList(){
         List<String> resultList = null;
         String pilotInfoList = null;
@@ -443,12 +436,6 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
                     .uri(new URI(url))
                     .GET()
                     .build();
-
-            /*HttpRequest request = HttpRequest.newBuilder()
-                    .uri(new URI("https://api.ivao.aero/getdata/whazzup/whazzup.txt"))
-                    .GET()
-                    .build();*/
-
 
             HttpResponse<String> response = HttpClient.newBuilder()
                     .build()
@@ -471,12 +458,12 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
             resultList = null;
         }
         return resultList;
-    }
+    }*/
     /**
      * Get weather prevition for all the airport from ivao API V2
      * @return list of weather prevition
      */
-    private String getPilotInfoList2(){
+ /*   private String getPilotInfoList2(){
         List<String> resultList = null;
         String pilotInfoList = null;
         try {
@@ -487,10 +474,6 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
                     .uri(new URI(url))
                     .GET()
                     .build();
-            /*HttpRequest request = HttpRequest.newBuilder()
-                    .uri(new URI("https://api.ivao.aero/v2/tracker/whazzup"))
-                    .GET()
-                    .build();*/
 
             HttpResponse<String> response = HttpClient.newBuilder()
                     .build()
@@ -510,5 +493,5 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
             resultList = null;
         }
         return pilotInfoList;
-    }
+    }*/
 }

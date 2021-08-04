@@ -4,10 +4,7 @@ import com.e2lre.ivaomsv0.controler.exception.AirportIdtNotFoundException;
 import com.e2lre.ivaomsv0.controler.exception.CallsignNotFoundException;
 import com.e2lre.ivaomsv0.controler.exception.VidNotFoundException;
 import com.e2lre.ivaomsv0.model.PilotATC;
-import com.e2lre.ivaomsv0.model.ivao.Atc;
-import com.e2lre.ivaomsv0.model.ivao.Pilot;
-import com.e2lre.ivaomsv0.model.ivao.Server;
-import com.e2lre.ivaomsv0.model.ivao.Whazuup;
+import com.e2lre.ivaomsv0.model.ivao.*;
 import com.e2lre.ivaomsv0.service.IvaoWeatherService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -43,14 +40,14 @@ public class IvaoWeatherControler {
 
         logger.info("getWeatherObsByAirportId start-" + airportId);
         String result = null;
-        try {
+       // try {
             result = ivaoWeatherService.getWeatherObsByAirport(airportId);
             if (result == null) {
                 logger.warn("The airport Id " + airportId + " does not exist");
                 throw new AirportIdtNotFoundException("The airport Id " + airportId + " does not exist");
             }
-        }
-        catch (URISyntaxException e) {
+       // }
+      /*  catch (URISyntaxException e) {
             logger.info("getWeatherObsByAirportId ERROR URISyntaxException");
             result = "ERROR";
         }
@@ -61,7 +58,7 @@ public class IvaoWeatherControler {
         catch (InterruptedException e) {
             logger.info("getWeatherObsByAirportId ERROR InterruptedException");
             result = "ERROR";
-        }
+        }*/
         logger.info("getWeatherObsByAirportId finish");
         return result;
     }
@@ -79,13 +76,14 @@ public class IvaoWeatherControler {
 
         logger.info("getWeatherPrevByAirportId start-" + airportId);
         String result = null;
-        try {
+        //try {
             result = ivaoWeatherService.getWeatherPrevByAirport(airportId);
             if (result == null) {
                 logger.warn("The airport Id " + airportId + " does not exist");
                 throw new AirportIdtNotFoundException("The airport Id " + airportId + " does not exist");
             }
-        }
+        //}
+        /*
         catch (URISyntaxException e) {
             logger.info("getWeatherPrevByAirportId ERROR URISyntaxException");
             result = "ERROR";
@@ -97,7 +95,7 @@ public class IvaoWeatherControler {
         catch (InterruptedException e) {
             logger.info("getWeatherPrevByAirportId ERROR InterruptedException");
             result = "ERROR";
-        }
+        }*/
         logger.info("getWeatherPrevByAirportId finish");
         return result;
     }
@@ -217,9 +215,9 @@ public class IvaoWeatherControler {
      * test json generation
      * @return whazuup json
      */
-    @GetMapping(value = "TestWazuup")
+    @GetMapping(value = "testWazuup")
     @ResponseStatus(HttpStatus.OK)
-    public Whazuup TestWazuup(){
+    public Whazuup testWazuup(){
 
         logger.info("TestWazuup start" );
        Whazuup whazuupResult = new Whazuup();
@@ -233,6 +231,25 @@ public class IvaoWeatherControler {
         server.setHostname("TITI");
         servers.add(server);
         whazuupResult.setServers(servers);
+        Pilot pilote = new Pilot();
+        pilote.setCallsign("Pilot Test");
+        pilote.setUserId("177513");
+        pilote.setId("1234");
+        pilote.setRating("abcd");
+        List<Pilot> pilots = new ArrayList<>();
+        pilots.add(pilote);
+        Atc atc = new Atc();
+        atc.setUserId("671399");
+        atc.setCallsign("atc test");
+        atc.setId("9876");
+        atc.setRating("XYZ");
+        List<Atc> atcs = new ArrayList<>();
+        atcs.add(atc);
+        Client client = new Client();
+        client.setPilots(pilots);
+        client.setAtcs(atcs);
+        whazuupResult.setClients(client);
+
         return whazuupResult;
     }
 }
