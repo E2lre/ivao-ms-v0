@@ -19,6 +19,7 @@ import java.net.http.HttpResponse;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.ResourceBundle;
 
 
 @Service
@@ -345,11 +346,18 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
         List<String> resultList = null;
         String airportList = null;
         try {
-           HttpRequest request = HttpRequest.newBuilder()
+            ResourceBundle bundle = ResourceBundle.getBundle("application");
+            String url = bundle.getString("url.metar.apiv1");
+
+            HttpRequest request = HttpRequest.newBuilder()
+                    .uri(new URI(url))
+                    .GET()
+                    .build();
+
+            /*HttpRequest request = HttpRequest.newBuilder()
                    .uri(new URI("http://wx.ivao.aero/metar.php"))
                    .GET()
-                   .build();
-
+                   .build();*/
 
            HttpResponse<String> response = HttpClient.newBuilder()
                    .build()
@@ -382,11 +390,18 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
         List<String> resultList = null;
         String airportList = null;
         try {
+            ResourceBundle bundle = ResourceBundle.getBundle("application");
+            String url = bundle.getString("url.tar.apiv1");
+
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(new URI("http://wx.ivao.aero/taf.php"))
+                    .uri(new URI(url))
                     .GET()
                     .build();
 
+            /*HttpRequest request = HttpRequest.newBuilder()
+                    .uri(new URI("http://wx.ivao.aero/taf.php"))
+                    .GET()
+                    .build();*/
 
             HttpResponse<String> response = HttpClient.newBuilder()
                     .build()
@@ -420,10 +435,19 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
         List<String> resultList = null;
         String pilotInfoList = null;
         try {
+
+            ResourceBundle bundle = ResourceBundle.getBundle("application");
+            String url = bundle.getString("url.whazzup.apiv1");
+
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(new URI("https://api.ivao.aero/getdata/whazzup/whazzup.txt"))
+                    .uri(new URI(url))
                     .GET()
                     .build();
+
+            /*HttpRequest request = HttpRequest.newBuilder()
+                    .uri(new URI("https://api.ivao.aero/getdata/whazzup/whazzup.txt"))
+                    .GET()
+                    .build();*/
 
 
             HttpResponse<String> response = HttpClient.newBuilder()
@@ -456,10 +480,17 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
         List<String> resultList = null;
         String pilotInfoList = null;
         try {
+            ResourceBundle bundle = ResourceBundle.getBundle("application");
+            String url = bundle.getString("url.whazzup.apiv2");
+
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(new URI("https://api.ivao.aero/v2/tracker/whazzup"))
+                    .uri(new URI(url))
                     .GET()
                     .build();
+            /*HttpRequest request = HttpRequest.newBuilder()
+                    .uri(new URI("https://api.ivao.aero/v2/tracker/whazzup"))
+                    .GET()
+                    .build();*/
 
             HttpResponse<String> response = HttpClient.newBuilder()
                     .build()
