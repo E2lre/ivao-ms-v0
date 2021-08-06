@@ -2,6 +2,7 @@ package com.e2lre.ivaomsv0.controler;
 
 import com.e2lre.ivaomsv0.controler.exception.AirportIdtNotFoundException;
 import com.e2lre.ivaomsv0.controler.exception.CallsignNotFoundException;
+import com.e2lre.ivaomsv0.controler.exception.PrintException;
 import com.e2lre.ivaomsv0.controler.exception.VidNotFoundException;
 import com.e2lre.ivaomsv0.model.PilotATC;
 import com.e2lre.ivaomsv0.model.ivao.*;
@@ -176,6 +177,28 @@ public class IvaoWeatherControler {
         logger.info("getATCInfoByVid finish");
         return result;
     }
+    /*---------------------------  Print information string -----------------------------*/
+
+
+    @GetMapping(value = "printString/{info}")
+    @ResponseStatus(HttpStatus.OK)
+    public String printString(@PathVariable String info) throws PrintException {
+
+        logger.info("print start-" + info);
+        String result = null;
+        if (info.isEmpty()){
+            logger.warn("Print String error. No data to print" );
+            throw new PrintException("Print String error. No data to print");
+        }
+        result = ivaoWeatherService.printString(info);
+        if (result == null) {
+            logger.warn("Print String error. Please, look for application logs" );
+            throw new PrintException("Print String error. Please, look for application logs");
+        }
+        logger.info("print finish");
+        return result;
+    }
+
     /*---------------------------  GET ATIS info by VID -----------------------------*/
     @Deprecated
     @GetMapping(value = "ATISInfoVIDOLD/{vid}")

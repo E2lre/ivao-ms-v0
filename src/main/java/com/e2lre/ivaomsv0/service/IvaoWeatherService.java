@@ -5,6 +5,7 @@ import com.e2lre.ivaomsv0.model.PilotATC;
 import com.e2lre.ivaomsv0.model.ivao.Atc;
 import com.e2lre.ivaomsv0.model.ivao.Pilot;
 
+import javax.print.PrintException;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.HashMap;
@@ -19,10 +20,7 @@ public interface IvaoWeatherService {
     public PilotATC getFOLMEInfoByVid(String vid);
     public Pilot getPilotInfoByVid2(String vid);
     public Atc getATCInfoByVid(String vid);
+    public String printString(String info);
 
-    //methode public for test only,
-/*    public List<String> getWeatherObsAirportList();
-    public HashMap<String, String> getMapFromList(List<String> myList, String separator, int keyPosition);
 
- */
 }

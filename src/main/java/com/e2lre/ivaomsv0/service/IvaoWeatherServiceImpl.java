@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import javax.print.PrintException;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -28,6 +29,8 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
     private static final Logger logger = LogManager.getLogger(IvaoWeatherServiceImpl.class);
     @Autowired
     private IvaoUtilService ivaoUtilService;
+    @Autowired
+    private IvaoPrintingService ivaoPrintingService;
 
     @Override
     /**
@@ -160,6 +163,21 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
         return atcResult;
     }
 
+    @Override
+    public String printString(String info)  {
+        String result = null;
+        try {
+            result = ivaoPrintingService.printInfo(info);
+        } catch (PrintException e) {
+            e.printStackTrace();
+            logger.error("printString error : "+e.getMessage());
+        } catch (IOException e) {
+            e.printStackTrace();
+            logger.error("printString error : "+e.getMessage());
+        }
+        return result;
+    }
+
     /**
      * get ATIS  Info By Vid with ivao API V1
      * @param vid vid
@@ -209,66 +227,7 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
         return piloteATCResults;
     }
 
-/*
-    private Atc findAtcByVid(List<Atc> atcs,String vid) {
-        Atc atcResult = null;
-        for (Atc a : atcs){
-            if (a.getUserId().equals(vid)) {
-                atcResult = a;
-            }
-        }
-        return atcResult;
-    }
-    private Pilot findPilotByVid(List<Pilot> pilotes,String vid) {
-        Pilot piloteResult = null;
-        for (Pilot p : pilotes){
-            if (p.getUserId().equals(vid)) {
-                piloteResult = p;
-            }
-        }
-        return piloteResult;
-    }
 
-
-    private  Whazuup  getWhazuppFromJSON(String myJson)  {
-        logger.info ("getWhazuppFromJSON - Start");
-        ObjectMapper objectMapper = new ObjectMapper();
-        Whazuup whazuup = null;
-        try {
-            whazuup = objectMapper.readValue(myJson, Whazuup.class); //https://www.baeldung.com/jackson-object-mapper-tutorial
-        } catch (JsonProcessingException e) {
-            e.printStackTrace();
-
-            logger.error("getMapFromJSON - Erreur au dépassage : "+e.getMessage());
-        }
-        logger.info ("getWhazuppFromJSON - End");
-        return whazuup;
-
-
-    }
-*/
-    /**
-     * Transfort list with separator to a map.the key map will be the first element of rach line
-     * @param myList list to be transfort
-     * @param separator list séparator
-     * @return map from the list
-     */
-  /*  @Override
-    public HashMap<String, String> getMapFromList(List<String> myList, String separator,int keyPosition) {
-        HashMap<String, String> myMap = new HashMap<>();
-        int position;
-        for( String e : myList){
-            List<String> info = Arrays.asList(e.split(separator));
-            //logger.info("taille de la liste vers la map : "+info.size());
-            position = keyPosition;
-            if (info.size()<=keyPosition) {
-                position =0;
-            }
-            myMap.put(info.get(position), e);
-
-        }
-        return myMap;
-    }*/
 
     /**
      * convert pilotatc list from ivao API V1 in pilotATC object
@@ -339,159 +298,5 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
 
         return pilotATC;
     }
-    /**
-     * Get weather observation for all the airport
-     * @return list of weather observation
-     */
-   /* @Override
-    public List<String> getWeatherObsAirportList(){
-        List<String> resultList = null;
-        String airportList = null;
-        try {
-            ResourceBundle bundle = ResourceBundle.getBundle("application");
-            String url = bundle.getString("url.metar.apiv1");
 
-            HttpRequest request = HttpRequest.newBuilder()
-                    .uri(new URI(url))
-                    .GET()
-                    .build();
-
-
-           HttpResponse<String> response = HttpClient.newBuilder()
-                   .build()
-                   .send(request, HttpResponse.BodyHandlers.ofString()); // BodyHandler.asString());
-            airportList = response.body().toString();
-
-            resultList = Arrays.asList(airportList.split("\n"));
-
-       }
-       catch (URISyntaxException e) {
-           logger.error("GetWeateherObsAirportList ERROR URISyntaxException");
-           resultList = null;
-       }
-       catch (IOException e) {
-           logger.error("GetWeateherObsAirportList ERROR IOException");
-           resultList = null;
-       }
-       catch (InterruptedException e) {
-           logger.error("GetWeateherObsAirportList ERROR InterruptedException");
-           resultList = null;
-       }
-        return resultList;
-    }
-*/
-    /**
-     * Get weather prevition for all the airport
-     * @return list of weather prevition
-     */
-  /*  private List<String> getWeatherPrevAirportList(){
-        List<String> resultList = null;
-        String airportList = null;
-        try {
-            ResourceBundle bundle = ResourceBundle.getBundle("application");
-            String url = bundle.getString("url.tar.apiv1");
-
-            HttpRequest request = HttpRequest.newBuilder()
-                    .uri(new URI(url))
-                    .GET()
-                    .build();
-
-            HttpResponse<String> response = HttpClient.newBuilder()
-                    .build()
-                    .send(request, HttpResponse.BodyHandlers.ofString()); // BodyHandler.asString());
-            airportList = response.body().toString();
-
-            resultList = Arrays.asList(airportList.split("\n"));
-
-        }
-        catch (URISyntaxException e) {
-            logger.error("getWeatherPrevAirportList ERROR URISyntaxException");
-            resultList = null;
-        }
-        catch (IOException e) {
-            logger.error("getWeatherPrevAirportList ERROR IOException");
-            resultList = null;
-        }
-        catch (InterruptedException e) {
-            logger.error("getWeatherPrevAirportList ERROR InterruptedException");
-            resultList = null;
-        }
-        return resultList;
-    }
-*/
-    /**
-     * Get weather prevition for all the airport from ivao API V1
-     * @return list of weather prevition
-     */
- /*   @Deprecated
-    private List<String> getPilotInfoList(){
-        List<String> resultList = null;
-        String pilotInfoList = null;
-        try {
-
-            ResourceBundle bundle = ResourceBundle.getBundle("application");
-            String url = bundle.getString("url.whazzup.apiv1");
-
-            HttpRequest request = HttpRequest.newBuilder()
-                    .uri(new URI(url))
-                    .GET()
-                    .build();
-
-            HttpResponse<String> response = HttpClient.newBuilder()
-                    .build()
-                    .send(request, HttpResponse.BodyHandlers.ofString()); // BodyHandler.asString());
-            pilotInfoList = response.body().toString();
-
-            resultList = Arrays.asList(pilotInfoList.split("\n"));
-
-        }
-        catch (URISyntaxException e) {
-            logger.error("getPilotInfoList ERROR URISyntaxException");
-            resultList = null;
-        }
-        catch (IOException e) {
-            logger.error("getPilotInfoList ERROR IOException");
-            resultList = null;
-        }
-        catch (InterruptedException e) {
-            logger.error("getPilotInfoList ERROR InterruptedException");
-            resultList = null;
-        }
-        return resultList;
-    }*/
-    /**
-     * Get weather prevition for all the airport from ivao API V2
-     * @return list of weather prevition
-     */
- /*   private String getPilotInfoList2(){
-        List<String> resultList = null;
-        String pilotInfoList = null;
-        try {
-            ResourceBundle bundle = ResourceBundle.getBundle("application");
-            String url = bundle.getString("url.whazzup.apiv2");
-
-            HttpRequest request = HttpRequest.newBuilder()
-                    .uri(new URI(url))
-                    .GET()
-                    .build();
-
-            HttpResponse<String> response = HttpClient.newBuilder()
-                    .build()
-                    .send(request, HttpResponse.BodyHandlers.ofString()); // BodyHandler.asString());
-            pilotInfoList = response.body().toString();
-        }
-        catch (URISyntaxException e) {
-            logger.error("getPilotInfoList ERROR URISyntaxException");
-            resultList = null;
-        }
-        catch (IOException e) {
-            logger.error("getPilotInfoList ERROR IOException");
-            resultList = null;
-        }
-        catch (InterruptedException e) {
-            logger.error("getPilotInfoList ERROR InterruptedException");
-            resultList = null;
-        }
-        return pilotInfoList;
-    }*/
 }
