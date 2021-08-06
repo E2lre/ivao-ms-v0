@@ -416,3 +416,81 @@ java.lang.IllegalArgumentException: data is not of declared type
 2021-08-06 12:40:57,750 ERROR c.e.i.s.IvaoWeatherServiceImpl-printString [http-nio-8082-exec-2] printString error : invalid flavor
 2021-08-06 12:40:57,750 WARN c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-2] Print String error. Please, look for application logs
 2021-08-06 12:40:57,750 ERROR c.e.i.c.e.PrintException-<init> [http-nio-8082-exec-2] Print String error. Please, look for application logs
+2021-08-06 12:45:10,277 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 5688 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-08-06 12:45:10,285 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-06 12:45:10,285 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-06 12:45:12,231 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.624 seconds (JVM running for 5.84)
+2021-08-06 12:45:20,393 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-1] print start-abc
+2021-08-06 12:45:29,907 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-1] print finish
+2021-08-06 12:52:10,287 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-4] print start-abc
+2021-08-06 12:53:36,443 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-4] print finish
+2021-08-06 12:59:40,649 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-8] getWeatherObsByAirportId start-LFPG
+2021-08-06 12:59:40,649 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-9] getWeatherPrevByAirportId start-LFPG
+2021-08-06 12:59:40,649 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-8] getWeatherObsByAirport start-LFPG
+2021-08-06 12:59:40,649 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-9] getWeatherPrevByAirport start-LFPG
+2021-08-06 12:59:43,445 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-8] getWeatherObsByAirport Finish-LFPG
+2021-08-06 12:59:43,445 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-8] getWeatherObsByAirportId finish
+2021-08-06 12:59:44,600 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-9] getWeatherPrevByAirport Finish-LFPG
+2021-08-06 12:59:44,600 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-9] getWeatherPrevByAirportId finish
+2021-08-06 12:59:53,737 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-2] getWeatherPrevByAirportId start-LFPO
+2021-08-06 12:59:53,737 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-10] getWeatherObsByAirportId start-LFPO
+2021-08-06 12:59:53,737 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-2] getWeatherPrevByAirport start-LFPO
+2021-08-06 12:59:53,737 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-10] getWeatherObsByAirport start-LFPO
+2021-08-06 12:59:55,525 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-2] getWeatherPrevByAirport Finish-LFPO
+2021-08-06 12:59:55,525 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-2] getWeatherPrevByAirportId finish
+2021-08-06 12:59:55,793 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-10] getWeatherObsByAirport Finish-LFPO
+2021-08-06 12:59:55,793 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-10] getWeatherObsByAirportId finish
+2021-08-06 13:01:25,963 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-6] getWeatherObsByAirportId start-LFPG
+2021-08-06 13:01:25,963 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-6] getWeatherObsByAirport start-LFPG
+2021-08-06 13:01:25,979 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-7] getWeatherPrevByAirportId start-LFPG
+2021-08-06 13:01:25,979 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-7] getWeatherPrevByAirport start-LFPG
+2021-08-06 13:01:28,039 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-6] getWeatherObsByAirport Finish-LFPG
+2021-08-06 13:01:28,039 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-6] getWeatherObsByAirportId finish
+2021-08-06 13:01:29,843 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-7] getWeatherPrevByAirport Finish-LFPG
+2021-08-06 13:01:29,843 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-7] getWeatherPrevByAirportId finish
+2021-08-06 19:24:52,917 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 9224 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-08-06 19:24:52,933 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-06 19:24:52,933 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-06 19:24:54,871 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.613 seconds (JVM running for 6.536)
+2021-08-06 19:25:53,954 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-1] getWeatherPrevByAirportId start-LFPG
+2021-08-06 19:25:53,954 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-2] getWeatherObsByAirportId start-LFPG
+2021-08-06 19:25:53,954 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-2] getWeatherObsByAirport start-LFPG
+2021-08-06 19:25:53,954 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-1] getWeatherPrevByAirport start-LFPG
+2021-08-06 19:25:56,812 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-1] getWeatherPrevByAirport Finish-LFPG
+2021-08-06 19:25:56,812 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-1] getWeatherPrevByAirportId finish
+2021-08-06 19:25:56,860 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-2] getWeatherObsByAirport Finish-LFPG
+2021-08-06 19:25:56,860 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-2] getWeatherObsByAirportId finish
+2021-08-06 19:29:15,242 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-9] print start-LFPGLFPG
+2021-08-06 19:29:41,919 ERROR c.e.i.s.IvaoWeatherServiceImpl-printString [http-nio-8082-exec-9] printString error : Print job failed to start.
+2021-08-06 19:29:41,919 WARN c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-9] Print String error. Please, look for application logs
+2021-08-06 19:29:41,919 ERROR c.e.i.c.e.PrintException-<init> [http-nio-8082-exec-9] Print String error. Please, look for application logs
+2021-08-06 19:30:11,646 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-10] print start-abc
+2021-08-06 19:30:11,669 ERROR c.e.i.s.IvaoWeatherServiceImpl-printString [http-nio-8082-exec-10] printString error : Print job failed to start.
+2021-08-06 19:30:11,669 WARN c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-10] Print String error. Please, look for application logs
+2021-08-06 19:30:11,669 ERROR c.e.i.c.e.PrintException-<init> [http-nio-8082-exec-10] Print String error. Please, look for application logs
+2021-08-06 19:30:19,921 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-1] print start-abc
+2021-08-06 19:30:45,924 ERROR c.e.i.s.IvaoWeatherServiceImpl-printString [http-nio-8082-exec-1] printString error : Print job failed to start.
+2021-08-06 19:30:45,924 WARN c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-1] Print String error. Please, look for application logs
+2021-08-06 19:30:45,924 ERROR c.e.i.c.e.PrintException-<init> [http-nio-8082-exec-1] Print String error. Please, look for application logs
+2021-08-06 22:09:40,979 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 10548 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-08-06 22:09:40,995 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-06 22:09:40,995 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-06 22:10:03,196 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 27.261 seconds (JVM running for 55.814)
+2021-08-06 22:12:26,185 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId start-LFPG
+2021-08-06 22:12:26,185 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-3] getWeatherPrevByAirportId start-LFPG
+2021-08-06 22:12:36,275 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport start-LFPG
+2021-08-06 22:12:36,275 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-3] getWeatherPrevByAirport start-LFPG
+2021-08-06 22:12:53,634 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-3] getWeatherPrevByAirport Finish-LFPG
+2021-08-06 22:12:53,634 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-3] getWeatherPrevByAirportId finish
+2021-08-06 22:12:53,649 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport Finish-LFPG
+2021-08-06 22:13:00,572 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId finish
+2021-08-06 22:16:07,572 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-9] print start-abc
+2021-08-06 22:16:16,738 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-9] print finish
+2021-08-06 22:17:25,577 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 5836 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-08-06 22:17:25,593 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-06 22:17:25,593 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-06 22:17:33,016 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 8.051 seconds (JVM running for 12.599)
+2021-08-06 22:17:40,857 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-1] printStringPost start-LFPGLFPG 061930Z 23014KT 9999 FEW043 SCT073 BKN260 20/12 Q1005 NOSIGLFPG 061700Z 0618/0724 23012KT CAVOK TX21/0714Z TN14/0705Z  BECMG 0708/0710 SCT020TCU  TEMPO 0710/0718 24015G25KT 4000 SHRA BKN025CB PROB30  TEMPO 0712/0717 26020G30KT 1500 TSRA  BECMG 0718/0720 CAVOK
+2021-08-06 22:17:58,786 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-1] printStringPost finish
+2021-08-06 22:18:37,311 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-3] printStringPost start-LFPGLFPG 061930Z 23014KT 9999 FEW043 SCT073 BKN260 20/12 Q1005 NOSIGLFPG 061700Z 0618/0724 23012KT CAVOK TX21/0714Z TN14/0705Z  BECMG 0708/0710 SCT020TCU  TEMPO 0710/0718 24015G25KT 4000 SHRA BKN025CB PROB30  TEMPO 0712/0717 26020G30KT 1500 TSRA  BECMG 0718/0720 CAVOK
+2021-08-06 22:18:51,467 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-3] printStringPost finish

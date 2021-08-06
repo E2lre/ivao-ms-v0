@@ -11,10 +11,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.ResponseStatus;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -198,7 +195,24 @@ public class IvaoWeatherControler {
         logger.info("print finish");
         return result;
     }
-
+    /*---------------------------  POST Patient -----------------------------*/
+    @PostMapping(value = "printString")
+    @ResponseStatus(HttpStatus.OK)
+    public String printStringPost(@RequestBody String info) throws PrintException {
+        logger.info("printStringPost start-" + info);
+        String result = null;
+        if (info.isEmpty()){
+            logger.warn("printStringPost String error. No data to print" );
+            throw new PrintException("printStringPost String error. No data to print");
+        }
+        result = ivaoWeatherService.printString(info);
+        if (result == null) {
+            logger.warn("printStringPost String error. Please, look for application logs" );
+            throw new PrintException("printStringPost String error. Please, look for application logs");
+        }
+        logger.info("printStringPost finish");
+        return result;
+    }
     /*---------------------------  GET ATIS info by VID -----------------------------*/
     @Deprecated
     @GetMapping(value = "ATISInfoVIDOLD/{vid}")
