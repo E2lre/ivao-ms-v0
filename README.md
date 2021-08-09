@@ -42,30 +42,30 @@ In root project directory execute command line :
 All the document is on java dac.
 
 ### End Point catalog
-* pilotInfoVID/{vid} (get)
+* pilotInfoVID/{vid} (get) :
 Return pilot information for pilot user id
 example : http://localhost:8082/pilotInfoVID/1234
 
-* ATCInfoVID/{vid}
-Return ATC information for ATC user id (get)
+* ATCInfoVID/{vid} (get) :
+Return ATC information for ATC user id
 example : http://localhost:8082/ATCInfoVID/1234
 
-* airportWeatherObs/{airportId} (get)
+* airportWeatherObs/{airportId} (get) :
 Return weather observation for airport ID
 example : http://localhost:8082/airportWeatherObs/LFPG
 
-* airportWeatherPrev/{airportId} (get)
+* airportWeatherPrev/{airportId} (get) :
 Return weather prevision for airport ID
 example : http://localhost:8082/airportWeatherPrev/LFPG
 
-* printString/{info} (get)
+* printString/{info} (get) :
 Send string info to printer
 example : http://localhost:8082/printString/HELLO-WORLD
 
-* printString (post)
+* printString (post) :
 Send json body (somple string) to printer 
 example : http://localhost:8082/printString
 
-* testWazuup (get)
+* testWazuup (get) :
 return whazuup example json
 example : http://localhost:8082/testWazuup
