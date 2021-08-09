@@ -1,496 +1,184 @@
-2021-08-06 08:27:18,482 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 828 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
-2021-08-06 08:27:18,513 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-08-06 08:27:18,513 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
-2021-08-06 08:27:20,716 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.885 seconds (JVM running for 7.362)
-2021-08-06 08:28:13,724 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-1] print start-abc
-2021-08-06 08:28:13,725 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-1] print finish
-2021-08-06 08:28:22,316 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-3] print start-"abc"
-2021-08-06 08:28:22,317 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-3] print finish
-2021-08-06 08:28:29,286 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-4] print start-"abc ijk"
-2021-08-06 08:28:29,287 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-4] print finish
-2021-08-06 08:28:35,106 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-5] print start-abc ijk
-2021-08-06 08:28:35,106 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-5] print finish
-2021-08-06 12:31:14,833 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 2900 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
-2021-08-06 12:31:14,844 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-08-06 12:31:14,846 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
-2021-08-06 12:31:16,769 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.499 seconds (JVM running for 7.54)
-2021-08-06 12:32:21,379 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-1] print start-abc
-2021-08-06 12:32:22,773 ERROR c.e.i.s.IvaoWeatherServiceImpl-printString [http-nio-8082-exec-1] printString error : invalid flavor
-2021-08-06 12:32:22,773 WARN c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-1] Print String error. Please, look for application logs
-2021-08-06 12:32:22,774 ERROR c.e.i.c.e.PrintException-<init> [http-nio-8082-exec-1] Trint String error. Please, look for application logs
-2021-08-06 12:33:46,451 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 11060 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
-2021-08-06 12:33:46,467 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-08-06 12:33:46,467 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
-2021-08-06 12:33:48,341 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.437 seconds (JVM running for 5.224)
-2021-08-06 12:33:53,503 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-2] print start-abc
-2021-08-06 12:33:54,414 ERROR c.e.i.s.IvaoWeatherServiceImpl-printString [http-nio-8082-exec-2] printString error : invalid flavor
-2021-08-06 12:33:54,415 WARN c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-2] Print String error. Please, look for application logs
-2021-08-06 12:33:54,415 ERROR c.e.i.c.e.PrintException-<init> [http-nio-8082-exec-2] Print String error. Please, look for application logs
-2021-08-06 12:34:35,339 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 1580 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
-2021-08-06 12:34:35,361 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-08-06 12:34:35,362 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
-2021-08-06 12:34:37,235 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.418 seconds (JVM running for 6.051)
-2021-08-06 12:34:40,155 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-2] print start-abc
-2021-08-06 12:34:40,945 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]-log [http-nio-8082-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: data is not of declared type] with root cause
-java.lang.IllegalArgumentException: data is not of declared type
-	at javax.print.SimpleDoc.<init>(SimpleDoc.java:119) ~[?:?]
-	at com.e2lre.ivaomsv0.service.IvaoPrintingServiceImpl.printInfo(IvaoPrintingServiceImpl.java:33) ~[classes/:?]
-	at com.e2lre.ivaomsv0.service.IvaoWeatherServiceImpl.printString(IvaoWeatherServiceImpl.java:170) ~[classes/:?]
-	at com.e2lre.ivaomsv0.controler.IvaoWeatherControler.printString(IvaoWeatherControler.java:193) ~[classes/:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-2021-08-06 12:35:34,931 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 9836 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
-2021-08-06 12:35:34,931 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-08-06 12:35:34,947 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
-2021-08-06 12:35:36,650 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.494 seconds (JVM running for 5.645)
-2021-08-06 12:35:49,009 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-1] print start-abc
-2021-08-06 12:35:49,908 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]-log [http-nio-8082-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: data is not of declared type] with root cause
-java.lang.IllegalArgumentException: data is not of declared type
-	at javax.print.SimpleDoc.<init>(SimpleDoc.java:119) ~[?:?]
-	at com.e2lre.ivaomsv0.service.IvaoPrintingServiceImpl.printInfo(IvaoPrintingServiceImpl.java:33) ~[classes/:?]
-	at com.e2lre.ivaomsv0.service.IvaoWeatherServiceImpl.printString(IvaoWeatherServiceImpl.java:170) ~[classes/:?]
-	at com.e2lre.ivaomsv0.controler.IvaoWeatherControler.printString(IvaoWeatherControler.java:193) ~[classes/:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-2021-08-06 12:36:02,825 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-3] print start-"abc"
-2021-08-06 12:36:02,827 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]-log [http-nio-8082-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: data is not of declared type] with root cause
-java.lang.IllegalArgumentException: data is not of declared type
-	at javax.print.SimpleDoc.<init>(SimpleDoc.java:119) ~[?:?]
-	at com.e2lre.ivaomsv0.service.IvaoPrintingServiceImpl.printInfo(IvaoPrintingServiceImpl.java:33) ~[classes/:?]
-	at com.e2lre.ivaomsv0.service.IvaoWeatherServiceImpl.printString(IvaoWeatherServiceImpl.java:170) ~[classes/:?]
-	at com.e2lre.ivaomsv0.controler.IvaoWeatherControler.printString(IvaoWeatherControler.java:193) ~[classes/:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-2021-08-06 12:37:28,666 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 13188 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
-2021-08-06 12:37:28,677 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-08-06 12:37:28,678 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
-2021-08-06 12:37:30,623 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.721 seconds (JVM running for 5.535)
-2021-08-06 12:37:42,622 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-1] print start-"abc"
-2021-08-06 12:37:43,331 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]-log [http-nio-8082-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: data is not of declared type] with root cause
-java.lang.IllegalArgumentException: data is not of declared type
-	at javax.print.SimpleDoc.<init>(SimpleDoc.java:119) ~[?:?]
-	at com.e2lre.ivaomsv0.service.IvaoPrintingServiceImpl.printInfo(IvaoPrintingServiceImpl.java:33) ~[classes/:?]
-	at com.e2lre.ivaomsv0.service.IvaoWeatherServiceImpl.printString(IvaoWeatherServiceImpl.java:170) ~[classes/:?]
-	at com.e2lre.ivaomsv0.controler.IvaoWeatherControler.printString(IvaoWeatherControler.java:193) ~[classes/:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-2021-08-06 12:37:55,731 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-4] print start-abc
-2021-08-06 12:37:55,735 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]-log [http-nio-8082-exec-4] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: data is not of declared type] with root cause
-java.lang.IllegalArgumentException: data is not of declared type
-	at javax.print.SimpleDoc.<init>(SimpleDoc.java:119) ~[?:?]
-	at com.e2lre.ivaomsv0.service.IvaoPrintingServiceImpl.printInfo(IvaoPrintingServiceImpl.java:33) ~[classes/:?]
-	at com.e2lre.ivaomsv0.service.IvaoWeatherServiceImpl.printString(IvaoWeatherServiceImpl.java:170) ~[classes/:?]
-	at com.e2lre.ivaomsv0.controler.IvaoWeatherControler.printString(IvaoWeatherControler.java:193) ~[classes/:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-2021-08-06 12:38:24,983 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 5240 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
-2021-08-06 12:38:24,999 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-08-06 12:38:24,999 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
-2021-08-06 12:38:27,015 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.738 seconds (JVM running for 5.964)
-2021-08-06 12:39:27,144 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-7] print start-abc
-2021-08-06 12:39:28,012 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]-log [http-nio-8082-exec-7] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: data is not of declared type] with root cause
-java.lang.IllegalArgumentException: data is not of declared type
-	at javax.print.SimpleDoc.<init>(SimpleDoc.java:119) ~[?:?]
-	at com.e2lre.ivaomsv0.service.IvaoPrintingServiceImpl.printInfo(IvaoPrintingServiceImpl.java:33) ~[classes/:?]
-	at com.e2lre.ivaomsv0.service.IvaoWeatherServiceImpl.printString(IvaoWeatherServiceImpl.java:170) ~[classes/:?]
-	at com.e2lre.ivaomsv0.controler.IvaoWeatherControler.printString(IvaoWeatherControler.java:193) ~[classes/:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-2021-08-06 12:40:23,694 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 8368 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
-2021-08-06 12:40:23,694 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-08-06 12:40:23,710 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
-2021-08-06 12:40:25,475 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.426 seconds (JVM running for 5.304)
-2021-08-06 12:40:57,004 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-2] print start-abc
-2021-08-06 12:40:57,750 ERROR c.e.i.s.IvaoWeatherServiceImpl-printString [http-nio-8082-exec-2] printString error : invalid flavor
-2021-08-06 12:40:57,750 WARN c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-2] Print String error. Please, look for application logs
-2021-08-06 12:40:57,750 ERROR c.e.i.c.e.PrintException-<init> [http-nio-8082-exec-2] Print String error. Please, look for application logs
-2021-08-06 12:45:10,277 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 5688 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
-2021-08-06 12:45:10,285 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-08-06 12:45:10,285 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
-2021-08-06 12:45:12,231 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.624 seconds (JVM running for 5.84)
-2021-08-06 12:45:20,393 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-1] print start-abc
-2021-08-06 12:45:29,907 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-1] print finish
-2021-08-06 12:52:10,287 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-4] print start-abc
-2021-08-06 12:53:36,443 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-4] print finish
-2021-08-06 12:59:40,649 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-8] getWeatherObsByAirportId start-LFPG
-2021-08-06 12:59:40,649 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-9] getWeatherPrevByAirportId start-LFPG
-2021-08-06 12:59:40,649 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-8] getWeatherObsByAirport start-LFPG
-2021-08-06 12:59:40,649 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-9] getWeatherPrevByAirport start-LFPG
-2021-08-06 12:59:43,445 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-8] getWeatherObsByAirport Finish-LFPG
-2021-08-06 12:59:43,445 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-8] getWeatherObsByAirportId finish
-2021-08-06 12:59:44,600 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-9] getWeatherPrevByAirport Finish-LFPG
-2021-08-06 12:59:44,600 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-9] getWeatherPrevByAirportId finish
-2021-08-06 12:59:53,737 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-2] getWeatherPrevByAirportId start-LFPO
-2021-08-06 12:59:53,737 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-10] getWeatherObsByAirportId start-LFPO
-2021-08-06 12:59:53,737 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-2] getWeatherPrevByAirport start-LFPO
-2021-08-06 12:59:53,737 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-10] getWeatherObsByAirport start-LFPO
-2021-08-06 12:59:55,525 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-2] getWeatherPrevByAirport Finish-LFPO
-2021-08-06 12:59:55,525 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-2] getWeatherPrevByAirportId finish
-2021-08-06 12:59:55,793 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-10] getWeatherObsByAirport Finish-LFPO
-2021-08-06 12:59:55,793 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-10] getWeatherObsByAirportId finish
-2021-08-06 13:01:25,963 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-6] getWeatherObsByAirportId start-LFPG
-2021-08-06 13:01:25,963 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-6] getWeatherObsByAirport start-LFPG
-2021-08-06 13:01:25,979 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-7] getWeatherPrevByAirportId start-LFPG
-2021-08-06 13:01:25,979 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-7] getWeatherPrevByAirport start-LFPG
-2021-08-06 13:01:28,039 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-6] getWeatherObsByAirport Finish-LFPG
-2021-08-06 13:01:28,039 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-6] getWeatherObsByAirportId finish
-2021-08-06 13:01:29,843 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-7] getWeatherPrevByAirport Finish-LFPG
-2021-08-06 13:01:29,843 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-7] getWeatherPrevByAirportId finish
-2021-08-06 19:24:52,917 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 9224 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
-2021-08-06 19:24:52,933 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-08-06 19:24:52,933 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
-2021-08-06 19:24:54,871 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.613 seconds (JVM running for 6.536)
-2021-08-06 19:25:53,954 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-1] getWeatherPrevByAirportId start-LFPG
-2021-08-06 19:25:53,954 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-2] getWeatherObsByAirportId start-LFPG
-2021-08-06 19:25:53,954 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-2] getWeatherObsByAirport start-LFPG
-2021-08-06 19:25:53,954 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-1] getWeatherPrevByAirport start-LFPG
-2021-08-06 19:25:56,812 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-1] getWeatherPrevByAirport Finish-LFPG
-2021-08-06 19:25:56,812 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-1] getWeatherPrevByAirportId finish
-2021-08-06 19:25:56,860 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-2] getWeatherObsByAirport Finish-LFPG
-2021-08-06 19:25:56,860 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-2] getWeatherObsByAirportId finish
-2021-08-06 19:29:15,242 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-9] print start-LFPGLFPG
-2021-08-06 19:29:41,919 ERROR c.e.i.s.IvaoWeatherServiceImpl-printString [http-nio-8082-exec-9] printString error : Print job failed to start.
-2021-08-06 19:29:41,919 WARN c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-9] Print String error. Please, look for application logs
-2021-08-06 19:29:41,919 ERROR c.e.i.c.e.PrintException-<init> [http-nio-8082-exec-9] Print String error. Please, look for application logs
-2021-08-06 19:30:11,646 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-10] print start-abc
-2021-08-06 19:30:11,669 ERROR c.e.i.s.IvaoWeatherServiceImpl-printString [http-nio-8082-exec-10] printString error : Print job failed to start.
-2021-08-06 19:30:11,669 WARN c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-10] Print String error. Please, look for application logs
-2021-08-06 19:30:11,669 ERROR c.e.i.c.e.PrintException-<init> [http-nio-8082-exec-10] Print String error. Please, look for application logs
-2021-08-06 19:30:19,921 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-1] print start-abc
-2021-08-06 19:30:45,924 ERROR c.e.i.s.IvaoWeatherServiceImpl-printString [http-nio-8082-exec-1] printString error : Print job failed to start.
-2021-08-06 19:30:45,924 WARN c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-1] Print String error. Please, look for application logs
-2021-08-06 19:30:45,924 ERROR c.e.i.c.e.PrintException-<init> [http-nio-8082-exec-1] Print String error. Please, look for application logs
-2021-08-06 22:09:40,979 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 10548 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
-2021-08-06 22:09:40,995 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-08-06 22:09:40,995 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
-2021-08-06 22:10:03,196 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 27.261 seconds (JVM running for 55.814)
-2021-08-06 22:12:26,185 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId start-LFPG
-2021-08-06 22:12:26,185 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-3] getWeatherPrevByAirportId start-LFPG
-2021-08-06 22:12:36,275 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport start-LFPG
-2021-08-06 22:12:36,275 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-3] getWeatherPrevByAirport start-LFPG
-2021-08-06 22:12:53,634 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-3] getWeatherPrevByAirport Finish-LFPG
-2021-08-06 22:12:53,634 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-3] getWeatherPrevByAirportId finish
-2021-08-06 22:12:53,649 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport Finish-LFPG
-2021-08-06 22:13:00,572 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId finish
-2021-08-06 22:16:07,572 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-9] print start-abc
-2021-08-06 22:16:16,738 INFO c.e.i.c.IvaoWeatherControler-printString [http-nio-8082-exec-9] print finish
-2021-08-06 22:17:25,577 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 5836 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
-2021-08-06 22:17:25,593 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-08-06 22:17:25,593 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
-2021-08-06 22:17:33,016 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 8.051 seconds (JVM running for 12.599)
-2021-08-06 22:17:40,857 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-1] printStringPost start-LFPGLFPG 061930Z 23014KT 9999 FEW043 SCT073 BKN260 20/12 Q1005 NOSIGLFPG 061700Z 0618/0724 23012KT CAVOK TX21/0714Z TN14/0705Z  BECMG 0708/0710 SCT020TCU  TEMPO 0710/0718 24015G25KT 4000 SHRA BKN025CB PROB30  TEMPO 0712/0717 26020G30KT 1500 TSRA  BECMG 0718/0720 CAVOK
-2021-08-06 22:17:58,786 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-1] printStringPost finish
-2021-08-06 22:18:37,311 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-3] printStringPost start-LFPGLFPG 061930Z 23014KT 9999 FEW043 SCT073 BKN260 20/12 Q1005 NOSIGLFPG 061700Z 0618/0724 23012KT CAVOK TX21/0714Z TN14/0705Z  BECMG 0708/0710 SCT020TCU  TEMPO 0710/0718 24015G25KT 4000 SHRA BKN025CB PROB30  TEMPO 0712/0717 26020G30KT 1500 TSRA  BECMG 0718/0720 CAVOK
-2021-08-06 22:18:51,467 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-3] printStringPost finish
+2021-08-08 00:10:05,260 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 2892 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-08-08 00:10:05,311 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-08 00:10:05,314 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-08 00:10:08,915 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 4.683 seconds (JVM running for 9.407)
+2021-08-08 00:12:32,606 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-1] getATCInfoByVid start-658318
+2021-08-08 00:12:35,026 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-1] getWhazuppFromJSON - Start
+2021-08-08 00:12:35,199 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-1] getWhazuppFromJSON - End
+2021-08-08 00:12:35,199 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-1] getATCInfoByVid finish
+2021-08-08 00:13:48,138 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-3] printStringPost start-User id: 658318
+Airport: undefined
+Frequency: 121.73
+ATIS: [object Object]
+2021-08-08 00:14:03,636 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-3] printStringPost finish
+2021-08-08 10:43:57,857 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 8956 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-08-08 10:43:57,887 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-08 10:43:57,888 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-08 10:44:01,620 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 4.779 seconds (JVM running for 13.439)
+2021-08-08 10:44:42,736 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-1] getATCInfoByVid start-668897
+2021-08-08 10:44:45,027 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-1] getWhazuppFromJSON - Start
+2021-08-08 10:44:45,178 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-1] getWhazuppFromJSON - End
+2021-08-08 10:44:45,178 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-1] getATCInfoByVid finish
+2021-08-08 10:46:16,865 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-3] getATCInfoByVid start-668897
+2021-08-08 10:46:18,115 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-3] getWhazuppFromJSON - Start
+2021-08-08 10:46:18,162 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-3] getWhazuppFromJSON - End
+2021-08-08 10:46:18,162 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-3] getATCInfoByVid finish
+2021-08-08 10:46:30,474 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-4] printStringPost start-User id: 668897
+Airport: undefined
+Frequency: 121.8
+ATIS: eu2.ts.ivao.aero/UWLL_GND,Ulyanovsk Ground,Information BRAVO  recorded at 0011z,CONFIRM ATIS INFO BRAVO  on initial contact / B / 2021-08-08T00:13:09.445Z
+2021-08-08 10:46:38,506 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-4] printStringPost finish
+2021-08-08 10:50:08,109 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-6] getATCInfoByVid start-668897
+2021-08-08 10:50:09,628 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - Start
+2021-08-08 10:50:09,673 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - End
+2021-08-08 10:50:09,673 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-6] getATCInfoByVid finish
+2021-08-08 10:50:10,720 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-7] printStringPost start-User id: 668897
+Airport: undefined
+Frequency: 121.8
+ATIS: eu2.ts.ivao.aero/UWLL_GND,Ulyanovsk Ground,Information BRAVO  recorded at 0011z,CONFIRM ATIS INFO BRAVO  on initial contact / B / 2021-08-08T00:13:09.445Z
+2021-08-08 10:50:18,436 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-7] printStringPost finish
+2021-08-08 10:52:02,581 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-9] getATCInfoByVid start-668897
+2021-08-08 10:52:04,310 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-9] getWhazuppFromJSON - Start
+2021-08-08 10:52:04,340 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-9] getWhazuppFromJSON - End
+2021-08-08 10:52:04,340 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-9] getATCInfoByVid finish
+2021-08-08 10:52:05,331 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-10] printStringPost start-User id: 668897
+Airport: undefined
+Frequency: 121.8
+ATIS: eu2.ts.ivao.aero/UWLL_GND,Ulyanovsk Ground,Information BRAVO  recorded at 0011z,CONFIRM ATIS INFO BRAVO  on initial contact / B / 2021-08-08T00:13:09.445Z
+2021-08-08 10:52:12,212 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-10] printStringPost finish
+2021-08-08 10:55:48,593 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-2] getATCInfoByVid start-668897
+2021-08-08 10:55:50,449 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-2] getWhazuppFromJSON - Start
+2021-08-08 10:55:50,482 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-2] getWhazuppFromJSON - End
+2021-08-08 10:55:50,482 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-2] getATCInfoByVid finish
+2021-08-08 10:55:51,665 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-3] printStringPost start-User id: 668897
+Airport: undefined
+Frequency: 121.8
+ATIS: eu2.ts.ivao.aero/UWLL_GND,Ulyanovsk Ground,Information BRAVO  recorded at 0011z,CONFIRM ATIS INFO BRAVO  on initial contact / B / 2021-08-08T00:13:09.445Z
+2021-08-08 10:55:59,899 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-3] printStringPost finish
+2021-08-08 10:56:43,913 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-4] printStringPost start-User id: 668897
+Airport: undefined
+Frequency: 121.8
+ATIS: eu2.ts.ivao.aero/UWLL_GND,Ulyanovsk Ground,Information BRAVO  recorded at 0011z,CONFIRM ATIS INFO BRAVO  on initial contact / B / 2021-08-08T00:13:09.445Z
+2021-08-08 10:56:57,558 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-4] printStringPost finish
+2021-08-08 10:58:05,788 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-6] getATCInfoByVid start-668897
+2021-08-08 10:58:07,588 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - Start
+2021-08-08 10:58:07,603 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - End
+2021-08-08 10:58:07,603 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-6] getATCInfoByVid finish
+2021-08-08 10:58:10,990 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-7] getATCInfoByVid start-668897
+2021-08-08 10:58:12,122 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-7] getWhazuppFromJSON - Start
+2021-08-08 10:58:12,135 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-7] getWhazuppFromJSON - End
+2021-08-08 10:58:12,135 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-7] getATCInfoByVid finish
+2021-08-08 10:58:14,020 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-8] printStringPost start-User id: 668897
+Airport: undefined
+Frequency: 121.8
+ATIS: eu2.ts.ivao.aero/UWLL_GND,Ulyanovsk Ground,Information BRAVO  recorded at 0011z,CONFIRM ATIS INFO BRAVO  on initial contact / B / 2021-08-08T00:13:09.445Z
+2021-08-08 10:58:22,570 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-8] printStringPost finish
+2021-08-08 10:58:30,357 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-9] getWeatherObsByAirportId start-LFPO
+2021-08-08 10:58:30,358 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-9] getWeatherObsByAirport start-LFPO
+2021-08-08 10:58:30,374 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-10] getWeatherPrevByAirportId start-LFPO
+2021-08-08 10:58:30,375 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-10] getWeatherPrevByAirport start-LFPO
+2021-08-08 10:58:32,886 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-10] getWeatherPrevByAirport Finish-LFPO
+2021-08-08 10:58:32,886 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-10] getWeatherPrevByAirportId finish
+2021-08-08 10:58:32,901 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-9] getWeatherObsByAirport Finish-LFPO
+2021-08-08 10:58:32,901 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-9] getWeatherObsByAirportId finish
+2021-08-08 10:58:34,480 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-1] printStringPost start-LFPOLFPO 080830Z 22012KT 190V260 9999 BKN016 SCT022 16/13 Q1012 NOSIGLFPO 080500Z 0806/0912 22010KT 9999 BKN025 PROB30  TEMPO 0806/0808 SHRA BKN012 BKN020TCU  TEMPO 0808/0819 24015G25KT SHRA SCT025TCU PROB40  TEMPO 0809/0814 4000 SHRA SCT030CB PROB30  TEMPO 0812/0814 24015G35KT  TEMPO 0904/0909 -SHRA SCT012 BKN040 PROB30  TEMPO 0906/0908 BKN010 PROB40  TEMPO 0909/0912 SHRA BKN025TCU
+2021-08-08 10:58:43,222 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-1] printStringPost finish
+2021-08-08 10:59:36,802 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-3] getATCInfoByVid start-668897
+2021-08-08 10:59:39,386 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-3] getWhazuppFromJSON - Start
+2021-08-08 10:59:39,401 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-3] getWhazuppFromJSON - End
+2021-08-08 10:59:39,417 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-3] getATCInfoByVid finish
+2021-08-08 10:59:41,906 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-4] printStringPost start-User id: 668897
+Airport: undefined
+Frequency: 121.8
+ATIS: eu2.ts.ivao.aero/UWLL_GND,Ulyanovsk Ground,Information BRAVO  recorded at 0011z,CONFIRM ATIS INFO BRAVO  on initial contact / B / 2021-08-08T00:13:09.445Z
+2021-08-08 10:59:51,550 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-4] printStringPost finish
+2021-08-08 11:01:20,369 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-6] getATCInfoByVid start-268958
+2021-08-08 11:01:22,949 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - Start
+2021-08-08 11:01:22,986 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - End
+2021-08-08 11:01:22,986 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-6] getATCInfoByVid finish
+2021-08-08 11:01:31,086 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-7] printStringPost start-User id: 268958
+Airport: undefined
+Frequency: 118.2
+ATIS: eu17.ts.ivao.aero/RJAA_TWR,Narita Tower,Information ALPHA  recorded at 0900z,NFFN 080800Z 06005KT 9999 FEW030 24/19 Q1016 NOSIG,ARR RWY 20 / DEP RWY 20 / TRL FL130 / TA 11000ft,RMK ||| NFFN dep/arr rwy02 / NFNA dep/arr rwy10 / NVVV dep/arr rwy11 / NWWW dep/arr rwy11 || RMK/ CHARTS ARE MANDATORY ||,CONFIRM ATIS INFO ALPHA  on initial contact,CPDLC ID NFFF / A / 2021-08-08T09:00:48.581Z
+2021-08-08 11:01:49,808 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-7] printStringPost finish
+2021-08-08 11:02:18,751 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [http-nio-8082-exec-8] getPilotInfoByVid start-451984
+2021-08-08 11:02:20,968 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-8] getWhazuppFromJSON - Start
+2021-08-08 11:02:20,999 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-8] getWhazuppFromJSON - End
+2021-08-08 11:02:20,999 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [http-nio-8082-exec-8] getPilotInfoByVid finish
+2021-08-08 11:02:23,846 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-10] printStringPost start-User id: 451984
+Airport: undefined
+Departure Aerodrome: KLAX
+Cruising Level: F380
+Destination Aerodrome: NTAA
+Departure Time: 33600
+Route: TRTON2 FICKY G575 APIDD/N0479F400 G575 ORARE DCT ASOKI ASOKI3V
+Person On Board: 138
+On Ground: true
+FOB: 
+ZFW: 
+TOW: 
+Pax Number: 
+
+2021-08-08 11:02:36,654 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-10] printStringPost finish
+2021-08-08 11:50:49,225 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId start-LFPG
+2021-08-08 11:50:49,227 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport start-LFPG
+2021-08-08 11:50:49,228 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-2] getWeatherPrevByAirportId start-LFPG
+2021-08-08 11:50:49,232 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-2] getWeatherPrevByAirport start-LFPG
+2021-08-08 11:50:50,768 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport Finish-LFPG
+2021-08-08 11:50:50,768 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId finish
+2021-08-08 11:50:50,778 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-2] getWeatherPrevByAirport Finish-LFPG
+2021-08-08 11:50:50,779 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-2] getWeatherPrevByAirportId finish
+2021-08-08 11:59:52,255 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [http-nio-8082-exec-10] getPilotInfoByVid start-451984
+2021-08-08 11:59:54,322 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-10] getWhazuppFromJSON - Start
+2021-08-08 11:59:54,354 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-10] getWhazuppFromJSON - End
+2021-08-08 11:59:54,354 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [http-nio-8082-exec-10] getPilotInfoByVid finish
+2021-08-08 12:02:56,675 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-1] getATCInfoByVid start-668897
+2021-08-08 12:02:59,696 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-1] getWhazuppFromJSON - Start
+2021-08-08 12:02:59,729 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-1] getWhazuppFromJSON - End
+2021-08-08 12:02:59,729 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-1] getATCInfoByVid finish
+2021-08-08 12:03:09,252 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [http-nio-8082-exec-2] getPilotInfoByVid start-668897
+2021-08-08 12:03:12,294 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-2] getWhazuppFromJSON - Start
+2021-08-08 12:03:12,326 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-2] getWhazuppFromJSON - End
+2021-08-08 12:03:12,326 WARN c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [http-nio-8082-exec-2] The vid 668897 does not exist or is not a pilot
+2021-08-08 12:03:12,326 ERROR c.e.i.c.e.VidNotFoundException-<init> [http-nio-8082-exec-2] The vid 668897 does not exist  or is not a pilot"
+2021-08-08 12:19:32,483 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 9128 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
+2021-08-08 12:19:32,498 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-08 12:19:32,498 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-08 12:19:34,405 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.342 seconds (JVM running for 9.111)
+2021-08-08 12:22:07,979 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId start-LFPG
+2021-08-08 12:22:07,979 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-2] getWeatherPrevByAirportId start-LFPG
+2021-08-08 12:22:07,979 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-2] getWeatherPrevByAirport start-LFPG
+2021-08-08 12:22:07,979 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport start-LFPG
+2021-08-08 12:22:09,899 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-2] getWeatherPrevByAirport Finish-LFPG
+2021-08-08 12:22:09,899 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-2] getWeatherPrevByAirportId finish
+2021-08-08 12:22:10,008 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport Finish-LFPG
+2021-08-08 12:22:10,008 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId finish
+2021-08-08 12:22:36,374 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-3] printStringPost start-LFPGLFPG 081000Z 22015KT 9999 BKN028 SCT040 17/10 Q1012 NOSIGLFPG 080500Z 0806/0912 24012KT 9999 BKN016 TX21/0815Z TN14/0806Z  TEMPO 0806/0807 BKN012 PROB40  TEMPO 0809/0818 24015G25KT SCT020TCU PROB30  TEMPO 0809/0818 4000 SHRA FEW020CB BKN030 PROB30  TEMPO 0910/0912 SCT020TCU
+2021-08-08 12:22:51,618 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-3] printStringPost finish
+2021-08-08 12:23:54,899 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [http-nio-8082-exec-6] getPilotInfoByVid start-451984
+2021-08-08 12:23:57,915 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - Start
+2021-08-08 12:23:58,054 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - End
+2021-08-08 12:23:58,069 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [http-nio-8082-exec-6] getPilotInfoByVid finish
+2021-08-08 12:25:18,543 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-8] printStringPost start-User id: 451984
+Airport: undefined
+Departure Aerodrome: KLAX
+Cruising Level: F380
+Destination Aerodrome: NTAA
+Departure Time: 33600
+Route: TRTON2 FICKY G575 APIDD/N0479F400 G575 ORARE DCT ASOKI ASOKI3V
+Person On Board: 138
+On Ground: false
+FOB: 123
+ZFW: 234234
+TOW: SERZER
+Pax Number: 
+
+2021-08-08 12:25:27,382 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-8] printStringPost finish
+2021-08-08 12:25:56,179 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-9] getATCInfoByVid start-668897
+2021-08-08 12:25:59,711 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-9] getWhazuppFromJSON - Start
+2021-08-08 12:25:59,757 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-9] getWhazuppFromJSON - End
+2021-08-08 12:25:59,757 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-9] getATCInfoByVid finish
+2021-08-08 12:28:03,882 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-2] getATCInfoByVid start-668897
+2021-08-08 12:28:05,757 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-2] getWhazuppFromJSON - Start
+2021-08-08 12:28:05,788 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-2] getWhazuppFromJSON - End
+2021-08-08 12:28:05,788 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-2] getATCInfoByVid finish
