@@ -1,6 +1,7 @@
 package com.e2lre.ivaomsv0.tu;
 
 import com.e2lre.ivaomsv0.model.ivao.*;
+import com.e2lre.ivaomsv0.service.IvaoPrintingService;
 import com.e2lre.ivaomsv0.service.IvaoUtilService;
 import com.e2lre.ivaomsv0.service.IvaoWeatherService;
 import org.junit.jupiter.api.Test;
@@ -12,6 +13,8 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
+import javax.print.PrintException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -27,6 +30,9 @@ public class IvaoWeatherServiceTest {
     private IvaoUtilService ivaoUtilService;
     @MockBean
     private IvaoUtilService ivaoUtilServiceMock;
+    @MockBean
+    private IvaoPrintingService ivaoPrintingServiceMock;
+
     //constantes de test
     String WaetherObs1Const = "LFPO 040930Z 17005KT 100V230 9999 SCT034 SCT053 BKN150 19/11 Q1013 NOSIG";
     String WaetherObs2Const = "LFPG 041000Z 10004KT 040V150 9999 SCT036 SCT100 BKN260 20/10 Q1013 NOSIG";
@@ -173,6 +179,16 @@ public class IvaoWeatherServiceTest {
         Atc result=  ivaoWeatherService.getATCInfoByVid(" ");
         //THEN
         assertThat(result).isNull();
+    }
+    @Test
+    public void printString_whenPrintString_stringPrintedIsReturn () throws IOException, PrintException {
+        //Given
+        Mockito.when(ivaoPrintingServiceMock.printInfo(WaetherObs1Const)).thenReturn(WaetherObs1Const);
+        //WHEN
+        String result = ivaoWeatherService.printString(WaetherObs1Const);
+        //THEN
+        assertThat(result).isEqualTo(WaetherObs1Const);
+
     }
     private Whazuup testWhazuup() {
         Whazuup whazuupResult = new Whazuup();

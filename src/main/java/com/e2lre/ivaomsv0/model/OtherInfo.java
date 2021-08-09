@@ -1,4 +1,4 @@
-package com.e2lre.ivaomsv0.model;
+/* package com.e2lre.ivaomsv0.model;
 
 public class OtherInfo {
     private String callsign; //All
@@ -201,3 +201,5 @@ public class OtherInfo {
                 '}';
     }
 }
+
+ */

@@ -15,7 +15,7 @@ public interface IvaoUtilService {
     public Pilot findPilotByVid(List<Pilot> pilotes, String vid);
     public Whazuup getWhazuppFromJSON(String myJson);
     public  List<String> getWeatherPrevAirportList();
-    public  List<String> getPilotInfoList();
+    /*public  List<String> getPilotInfoList();*/
     public  String getPilotInfoList2();
 
 

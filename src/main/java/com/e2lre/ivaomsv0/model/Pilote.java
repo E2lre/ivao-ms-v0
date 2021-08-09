@@ -1,4 +1,4 @@
-package com.e2lre.ivaomsv0.model;
+/*package com.e2lre.ivaomsv0.model;
 
 public class Pilote {
     // All information are in https://wiki.ivao.aero/en/home/devops/api/whazuup/file-format
@@ -103,3 +103,6 @@ public class Pilote {
                 '}';
     }
 }
+
+
+ */

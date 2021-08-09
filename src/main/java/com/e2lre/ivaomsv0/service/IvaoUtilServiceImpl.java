@@ -49,16 +49,12 @@ public class IvaoUtilServiceImpl implements IvaoUtilService{
         try {
             ResourceBundle bundle = ResourceBundle.getBundle("application");
             String url = bundle.getString("url.metar.apiv1");
+            //String url = bundle.getString("url.metar.apiv1");
 
             HttpRequest request = HttpRequest.newBuilder()
                     .uri(new URI(url))
                     .GET()
                     .build();
-
-            /*HttpRequest request = HttpRequest.newBuilder()
-                   .uri(new URI("http://wx.ivao.aero/metar.php"))
-                   .GET()
-                   .build();*/
 
             HttpResponse<String> response = HttpClient.newBuilder()
                     .build()
@@ -142,11 +138,6 @@ public class IvaoUtilServiceImpl implements IvaoUtilService{
                     .GET()
                     .build();
 
-            /*HttpRequest request = HttpRequest.newBuilder()
-                    .uri(new URI("http://wx.ivao.aero/taf.php"))
-                    .GET()
-                    .build();*/
-
             HttpResponse<String> response = HttpClient.newBuilder()
                     .build()
                     .send(request, HttpResponse.BodyHandlers.ofString()); // BodyHandler.asString());
@@ -173,7 +164,7 @@ public class IvaoUtilServiceImpl implements IvaoUtilService{
      * Get weather prevition for all the airport from ivao API V1
      * @return list of weather prevition
      */
-    @Deprecated
+ /*   @Deprecated
     @Override
     public  List<String> getPilotInfoList(){
         List<String> resultList = null;
@@ -187,12 +178,6 @@ public class IvaoUtilServiceImpl implements IvaoUtilService{
                     .uri(new URI(url))
                     .GET()
                     .build();
-
-            /*HttpRequest request = HttpRequest.newBuilder()
-                    .uri(new URI("https://api.ivao.aero/getdata/whazzup/whazzup.txt"))
-                    .GET()
-                    .build();*/
-
 
             HttpResponse<String> response = HttpClient.newBuilder()
                     .build()
@@ -216,6 +201,8 @@ public class IvaoUtilServiceImpl implements IvaoUtilService{
         }
         return resultList;
     }
+    */
+
     /**
      * Get weather prevition for all the airport from ivao API V2
      * @return list of weather prevition
@@ -232,10 +219,6 @@ public class IvaoUtilServiceImpl implements IvaoUtilService{
                     .uri(new URI(url))
                     .GET()
                     .build();
-            /*HttpRequest request = HttpRequest.newBuilder()
-                    .uri(new URI("https://api.ivao.aero/v2/tracker/whazzup"))
-                    .GET()
-                    .build();*/
 
             HttpResponse<String> response = HttpClient.newBuilder()
                     .build()

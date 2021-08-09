@@ -4,7 +4,7 @@ import com.e2lre.ivaomsv0.controler.exception.AirportIdtNotFoundException;
 import com.e2lre.ivaomsv0.controler.exception.CallsignNotFoundException;
 import com.e2lre.ivaomsv0.controler.exception.PrintException;
 import com.e2lre.ivaomsv0.controler.exception.VidNotFoundException;
-import com.e2lre.ivaomsv0.model.PilotATC;
+//import com.e2lre.ivaomsv0.model.PilotATC;
 import com.e2lre.ivaomsv0.model.ivao.*;
 import com.e2lre.ivaomsv0.service.IvaoWeatherService;
 import org.apache.logging.log4j.LogManager;
@@ -44,19 +44,7 @@ public class IvaoWeatherControler {
                 logger.warn("The airport Id " + airportId + " does not exist");
                 throw new AirportIdtNotFoundException("The airport Id " + airportId + " does not exist");
             }
-       // }
-      /*  catch (URISyntaxException e) {
-            logger.info("getWeatherObsByAirportId ERROR URISyntaxException");
-            result = "ERROR";
-        }
-        catch (IOException e) {
-            logger.info("getWeatherObsByAirportId ERROR IOException");
-            result = "ERROR";
-        }
-        catch (InterruptedException e) {
-            logger.info("getWeatherObsByAirportId ERROR InterruptedException");
-            result = "ERROR";
-        }*/
+
         logger.info("getWeatherObsByAirportId finish");
         return result;
     }
@@ -80,55 +68,11 @@ public class IvaoWeatherControler {
                 logger.warn("The airport Id " + airportId + " does not exist");
                 throw new AirportIdtNotFoundException("The airport Id " + airportId + " does not exist");
             }
-        //}
-        /*
-        catch (URISyntaxException e) {
-            logger.info("getWeatherPrevByAirportId ERROR URISyntaxException");
-            result = "ERROR";
-        }
-        catch (IOException e) {
-            logger.info("getWeatherPrevByAirportId ERROR IOException");
-            result = "ERROR";
-        }
-        catch (InterruptedException e) {
-            logger.info("getWeatherPrevByAirportId ERROR InterruptedException");
-            result = "ERROR";
-        }*/
+
         logger.info("getWeatherPrevByAirportId finish");
         return result;
     }
-    /*---------------------------  GET pilot Info by callsign -----------------------------*/
-    @Deprecated
-    @GetMapping(value = "pilotInfoCallsignOLD/{callsign}")
-    @ResponseStatus(HttpStatus.OK)
-    public PilotATC getPilotInfoByCallsignOLD(@PathVariable String callsign) throws CallsignNotFoundException {
 
-        logger.info("getPilotInfoByCallsign start-" + callsign);
-        PilotATC result = null;
-            result = ivaoWeatherService.getPilotInfoByCallsign(callsign);
-            if (result == null) {
-                logger.warn("The callsign " + callsign + " does not exist or is not a Pilot");
-                throw new CallsignNotFoundException("The callsign " + callsign + " does not exist or is not a Pilot");
-            }
-        logger.info("getPilotInfoByCallsign finish");
-        return result;
-    }
-    /*---------------------------  GET pilot info by VID -----------------------------*/
-    @Deprecated
-    @GetMapping(value = "pilotInfoVIDOLD/{vid}")
-    @ResponseStatus(HttpStatus.OK)
-    public PilotATC getPilotInfoByVidOLD(@PathVariable String vid) throws VidNotFoundException {
-
-        logger.info("getPilotInfoByVid start-" + vid);
-        PilotATC result = null;
-        result = ivaoWeatherService.getPilotInfoByVid(vid);
-        if (result == null) {
-            logger.warn("The vid " + vid + " does not exist or is not a pilot");
-            throw new VidNotFoundException("The vid " + vid + " does not exist  or is not a pilot\"");
-        }
-        logger.info("getPilotInfoByVid finish");
-        return result;
-    }
     /*---------------------------  GET pilot info by VID -----------------------------*/
 
     /**
@@ -211,38 +155,6 @@ public class IvaoWeatherControler {
             throw new PrintException("printStringPost String error. Please, look for application logs");
         }
         logger.info("printStringPost finish");
-        return result;
-    }
-    /*---------------------------  GET ATIS info by VID -----------------------------*/
-    @Deprecated
-    @GetMapping(value = "ATISInfoVIDOLD/{vid}")
-    @ResponseStatus(HttpStatus.OK)
-    public PilotATC getATISInfoByVidOLD(@PathVariable String vid) throws VidNotFoundException {
-
-        logger.info("getATISInfoByVid start-" + vid);
-        PilotATC result = null;
-        result = ivaoWeatherService.getATISInfoByVid(vid);
-        if (result == null) {
-            logger.warn("The vid " + vid + " does not exist or is not a ATIS");
-            throw new VidNotFoundException("The vid " + vid + " does not exist  or is not an ATIS");
-        }
-        logger.info("getATISInfoByVid finish");
-        return result;
-    }
-    /*---------------------------  GET ATIS info by VID -----------------------------*/
-    @Deprecated
-    @GetMapping(value = "FOLMEInfoVIDOLD/{vid}")
-    @ResponseStatus(HttpStatus.OK)
-    public PilotATC getFOLMEInfoByVidOLD(@PathVariable String vid) throws VidNotFoundException {
-
-        logger.info("getFOLMEInfoByVid start-" + vid);
-        PilotATC result = null;
-        result = ivaoWeatherService.getFOLMEInfoByVid(vid);
-        if (result == null) {
-            logger.warn("The vid " + vid + " does not exist or is not a FOLME");
-            throw new VidNotFoundException("The vid " + vid + " does not exist  or is not an FOLME");
-        }
-        logger.info("getFOLMEInfoByVid finish");
         return result;
     }
 
