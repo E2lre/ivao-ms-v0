@@ -1,184 +1,341 @@
-2021-08-08 00:10:05,260 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 2892 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
-2021-08-08 00:10:05,311 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-08-08 00:10:05,314 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
-2021-08-08 00:10:08,915 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 4.683 seconds (JVM running for 9.407)
-2021-08-08 00:12:32,606 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-1] getATCInfoByVid start-658318
-2021-08-08 00:12:35,026 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-1] getWhazuppFromJSON - Start
-2021-08-08 00:12:35,199 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-1] getWhazuppFromJSON - End
-2021-08-08 00:12:35,199 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-1] getATCInfoByVid finish
-2021-08-08 00:13:48,138 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-3] printStringPost start-User id: 658318
+2021-08-15 19:28:30,673 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on DESKTOP-IL60ISO with PID 10312 (D:\Documents E\git\ivao-ms-v0\target\classes started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 19:28:30,688 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 19:28:30,689 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 19:28:32,673 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.378 seconds (JVM running for 5.782)
+2021-08-15 19:28:53,848 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-3] getATCInfoByCallsign start-EGTT_CTR
+2021-08-15 19:29:06,840 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-3] getWhazuppFromJSON - Start
+2021-08-15 19:29:08,840 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-3] getWhazuppFromJSON - End
+2021-08-15 19:29:26,406 WARN c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-3] The callsign EGTT_CTR does not exist or is not a ATC
+2021-08-15 19:29:27,022 ERROR c.e.i.c.e.VidNotFoundException-<init> [http-nio-8082-exec-3] The callsign EGTT_CTR does not exist  or is not an ATC
+2021-08-15 19:30:33,297 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-4] getATCInfoByCallsign start-LEVC_TWR
+2021-08-15 19:30:40,354 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-4] getWhazuppFromJSON - Start
+2021-08-15 19:30:41,947 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-4] getWhazuppFromJSON - End
+2021-08-15 19:30:53,294 WARN c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-4] The callsign LEVC_TWR does not exist or is not a ATC
+2021-08-15 19:30:53,296 ERROR c.e.i.c.e.VidNotFoundException-<init> [http-nio-8082-exec-4] The callsign LEVC_TWR does not exist  or is not an ATC
+2021-08-15 19:31:37,500 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-5] getATCInfoByCallsign start-LEVC_TWR
+2021-08-15 19:31:53,764 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-5] getWhazuppFromJSON - Start
+2021-08-15 19:31:55,330 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-5] getWhazuppFromJSON - End
+2021-08-15 19:32:32,315 WARN c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-5] The callsign LEVC_TWR does not exist or is not a ATC
+2021-08-15 19:32:32,316 ERROR c.e.i.c.e.VidNotFoundException-<init> [http-nio-8082-exec-5] The callsign LEVC_TWR does not exist  or is not an ATC
+2021-08-15 19:33:08,270 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on DESKTOP-IL60ISO with PID 12544 (D:\Documents E\git\ivao-ms-v0\target\classes started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 19:33:08,280 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 19:33:08,281 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 19:33:09,778 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 1.903 seconds (JVM running for 4.66)
+2021-08-15 19:33:13,643 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-1] getATCInfoByCallsign start-LEVC_TWR
+2021-08-15 19:33:22,244 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-1] getWhazuppFromJSON - Start
+2021-08-15 19:33:24,308 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-1] getWhazuppFromJSON - End
+2021-08-15 19:33:54,033 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-1] getATCInfoByCallsign finish
+2021-08-15 19:38:06,131 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-4] getATCInfoByVid start-LEVC_TWR
+2021-08-15 19:38:06,270 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-4] getWhazuppFromJSON - Start
+2021-08-15 19:38:06,329 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-4] getWhazuppFromJSON - End
+2021-08-15 19:38:06,329 WARN c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-4] The vid LEVC_TWR does not exist or is not a ATC
+2021-08-15 19:38:06,330 ERROR c.e.i.c.e.VidNotFoundException-<init> [http-nio-8082-exec-4] The vid LEVC_TWR does not exist  or is not an ATC
+2021-08-15 19:47:32,119 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-6] getATCInfoByVid start-LEVC_TWR
+2021-08-15 19:47:32,724 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - Start
+2021-08-15 19:47:32,756 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - End
+2021-08-15 19:47:32,756 WARN c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-6] The vid LEVC_TWR does not exist or is not a ATC
+2021-08-15 19:47:32,757 ERROR c.e.i.c.e.VidNotFoundException-<init> [http-nio-8082-exec-6] The vid LEVC_TWR does not exist  or is not an ATC
+2021-08-15 19:49:19,975 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-8] getATCInfoByCallsign start-LEVC_TWR
+2021-08-15 19:49:33,175 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-8] getWhazuppFromJSON - Start
+2021-08-15 19:49:33,222 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-8] getWhazuppFromJSON - End
+2021-08-15 19:49:34,781 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-8] getATCInfoByCallsign finish
+2021-08-15 19:50:57,584 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-10] getATCInfoByCallsign start-LEVC_TWR
+2021-08-15 19:51:15,622 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-10] getWhazuppFromJSON - Start
+2021-08-15 19:51:15,654 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-10] getWhazuppFromJSON - End
+2021-08-15 19:51:16,113 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-10] getATCInfoByCallsign finish
+2021-08-15 19:51:28,488 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on DESKTOP-IL60ISO with PID 12460 (D:\Documents E\git\ivao-ms-v0\target\classes started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 19:51:28,498 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 19:51:28,499 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 19:51:29,995 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 1.948 seconds (JVM running for 3.729)
+2021-08-15 19:59:34,387 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-1] getATCInfoByCallsign start-LEVC_TWR
+2021-08-15 19:59:35,011 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-1] getWhazuppFromJSON - Start
+2021-08-15 19:59:35,146 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-1] getWhazuppFromJSON - End
+2021-08-15 19:59:35,147 WARN c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-1] The callsign LEVC_TWR does not exist or is not a ATC
+2021-08-15 19:59:35,147 ERROR c.e.i.c.e.VidNotFoundException-<init> [http-nio-8082-exec-1] The callsign LEVC_TWR does not exist  or is not an ATC
+2021-08-15 20:00:16,528 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-2] getATCInfoByCallsign start-LEAS_TWR
+2021-08-15 20:00:16,683 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-2] getWhazuppFromJSON - Start
+2021-08-15 20:00:16,715 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-2] getWhazuppFromJSON - End
+2021-08-15 20:00:16,715 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-2] getATCInfoByCallsign finish
+2021-08-15 20:01:47,886 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-4] getATCInfoByCallsign start-LEAS_TWR
+2021-08-15 20:01:48,019 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-4] getWhazuppFromJSON - Start
+2021-08-15 20:01:48,048 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-4] getWhazuppFromJSON - End
+2021-08-15 20:01:48,048 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-4] getATCInfoByCallsign finish
+2021-08-15 20:03:15,547 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-6] getATCInfoByCallsign start-LEAS_TWR
+2021-08-15 20:03:15,691 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - Start
+2021-08-15 20:03:15,720 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - End
+2021-08-15 20:03:15,721 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByCallsign [http-nio-8082-exec-6] getATCInfoByCallsign finish
+2021-08-15 20:03:16,954 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-7] printStringPost start-User id: 648847 Callsign: LEAS_TWR
 Airport: undefined
-Frequency: 121.73
-ATIS: [object Object]
-2021-08-08 00:14:03,636 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-3] printStringPost finish
-2021-08-08 10:43:57,857 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 8956 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
-2021-08-08 10:43:57,887 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-08-08 10:43:57,888 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
-2021-08-08 10:44:01,620 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 4.779 seconds (JVM running for 13.439)
-2021-08-08 10:44:42,736 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-1] getATCInfoByVid start-668897
-2021-08-08 10:44:45,027 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-1] getWhazuppFromJSON - Start
-2021-08-08 10:44:45,178 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-1] getWhazuppFromJSON - End
-2021-08-08 10:44:45,178 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-1] getATCInfoByVid finish
-2021-08-08 10:46:16,865 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-3] getATCInfoByVid start-668897
-2021-08-08 10:46:18,115 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-3] getWhazuppFromJSON - Start
-2021-08-08 10:46:18,162 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-3] getWhazuppFromJSON - End
-2021-08-08 10:46:18,162 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-3] getATCInfoByVid finish
-2021-08-08 10:46:30,474 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-4] printStringPost start-User id: 668897
+Frequency: 118.15
+ATIS: eu16.ts.ivao.aero/LEAS_TWR,Asturias Tower,Information INDIA  recorded at 1747z,LEAS 151730Z 32004KT 270V050 9999 FEW008 BKN025 19/17 Q1023 TEMPO BKN010,ARR RWY 29 / DEP RWY 29 / TRL FL070 / TA 6000ft,RMK /ASTURIAS ACT AS A MONOPOSITION TOWER, TAKING CONTROL ON THE APPROACH, CALL TOWER NEAR THE TMA/,CONFIRM ATIS INFO INDIA  on initial contact,CPDLC ID LEAS / I / 2021-08-15T17:48:01.107Z
+2021-08-15 20:03:17,097 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-7] printStringPost finish
+2021-08-15 20:04:19,649 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on DESKTOP-IL60ISO with PID 12364 (D:\Documents E\git\ivao-ms-v0\target\classes started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:04:19,659 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:04:19,660 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:04:21,332 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.031 seconds (JVM running for 3.874)
+2021-08-15 20:04:27,310 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-1] printStringPost start-User id: 648847 Callsign: LEAS_TWR
 Airport: undefined
-Frequency: 121.8
-ATIS: eu2.ts.ivao.aero/UWLL_GND,Ulyanovsk Ground,Information BRAVO  recorded at 0011z,CONFIRM ATIS INFO BRAVO  on initial contact / B / 2021-08-08T00:13:09.445Z
-2021-08-08 10:46:38,506 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-4] printStringPost finish
-2021-08-08 10:50:08,109 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-6] getATCInfoByVid start-668897
-2021-08-08 10:50:09,628 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - Start
-2021-08-08 10:50:09,673 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - End
-2021-08-08 10:50:09,673 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-6] getATCInfoByVid finish
-2021-08-08 10:50:10,720 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-7] printStringPost start-User id: 668897
-Airport: undefined
-Frequency: 121.8
-ATIS: eu2.ts.ivao.aero/UWLL_GND,Ulyanovsk Ground,Information BRAVO  recorded at 0011z,CONFIRM ATIS INFO BRAVO  on initial contact / B / 2021-08-08T00:13:09.445Z
-2021-08-08 10:50:18,436 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-7] printStringPost finish
-2021-08-08 10:52:02,581 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-9] getATCInfoByVid start-668897
-2021-08-08 10:52:04,310 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-9] getWhazuppFromJSON - Start
-2021-08-08 10:52:04,340 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-9] getWhazuppFromJSON - End
-2021-08-08 10:52:04,340 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-9] getATCInfoByVid finish
-2021-08-08 10:52:05,331 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-10] printStringPost start-User id: 668897
-Airport: undefined
-Frequency: 121.8
-ATIS: eu2.ts.ivao.aero/UWLL_GND,Ulyanovsk Ground,Information BRAVO  recorded at 0011z,CONFIRM ATIS INFO BRAVO  on initial contact / B / 2021-08-08T00:13:09.445Z
-2021-08-08 10:52:12,212 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-10] printStringPost finish
-2021-08-08 10:55:48,593 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-2] getATCInfoByVid start-668897
-2021-08-08 10:55:50,449 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-2] getWhazuppFromJSON - Start
-2021-08-08 10:55:50,482 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-2] getWhazuppFromJSON - End
-2021-08-08 10:55:50,482 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-2] getATCInfoByVid finish
-2021-08-08 10:55:51,665 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-3] printStringPost start-User id: 668897
-Airport: undefined
-Frequency: 121.8
-ATIS: eu2.ts.ivao.aero/UWLL_GND,Ulyanovsk Ground,Information BRAVO  recorded at 0011z,CONFIRM ATIS INFO BRAVO  on initial contact / B / 2021-08-08T00:13:09.445Z
-2021-08-08 10:55:59,899 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-3] printStringPost finish
-2021-08-08 10:56:43,913 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-4] printStringPost start-User id: 668897
-Airport: undefined
-Frequency: 121.8
-ATIS: eu2.ts.ivao.aero/UWLL_GND,Ulyanovsk Ground,Information BRAVO  recorded at 0011z,CONFIRM ATIS INFO BRAVO  on initial contact / B / 2021-08-08T00:13:09.445Z
-2021-08-08 10:56:57,558 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-4] printStringPost finish
-2021-08-08 10:58:05,788 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-6] getATCInfoByVid start-668897
-2021-08-08 10:58:07,588 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - Start
-2021-08-08 10:58:07,603 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - End
-2021-08-08 10:58:07,603 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-6] getATCInfoByVid finish
-2021-08-08 10:58:10,990 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-7] getATCInfoByVid start-668897
-2021-08-08 10:58:12,122 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-7] getWhazuppFromJSON - Start
-2021-08-08 10:58:12,135 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-7] getWhazuppFromJSON - End
-2021-08-08 10:58:12,135 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-7] getATCInfoByVid finish
-2021-08-08 10:58:14,020 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-8] printStringPost start-User id: 668897
-Airport: undefined
-Frequency: 121.8
-ATIS: eu2.ts.ivao.aero/UWLL_GND,Ulyanovsk Ground,Information BRAVO  recorded at 0011z,CONFIRM ATIS INFO BRAVO  on initial contact / B / 2021-08-08T00:13:09.445Z
-2021-08-08 10:58:22,570 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-8] printStringPost finish
-2021-08-08 10:58:30,357 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-9] getWeatherObsByAirportId start-LFPO
-2021-08-08 10:58:30,358 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-9] getWeatherObsByAirport start-LFPO
-2021-08-08 10:58:30,374 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-10] getWeatherPrevByAirportId start-LFPO
-2021-08-08 10:58:30,375 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-10] getWeatherPrevByAirport start-LFPO
-2021-08-08 10:58:32,886 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-10] getWeatherPrevByAirport Finish-LFPO
-2021-08-08 10:58:32,886 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-10] getWeatherPrevByAirportId finish
-2021-08-08 10:58:32,901 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-9] getWeatherObsByAirport Finish-LFPO
-2021-08-08 10:58:32,901 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-9] getWeatherObsByAirportId finish
-2021-08-08 10:58:34,480 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-1] printStringPost start-LFPOLFPO 080830Z 22012KT 190V260 9999 BKN016 SCT022 16/13 Q1012 NOSIGLFPO 080500Z 0806/0912 22010KT 9999 BKN025 PROB30  TEMPO 0806/0808 SHRA BKN012 BKN020TCU  TEMPO 0808/0819 24015G25KT SHRA SCT025TCU PROB40  TEMPO 0809/0814 4000 SHRA SCT030CB PROB30  TEMPO 0812/0814 24015G35KT  TEMPO 0904/0909 -SHRA SCT012 BKN040 PROB30  TEMPO 0906/0908 BKN010 PROB40  TEMPO 0909/0912 SHRA BKN025TCU
-2021-08-08 10:58:43,222 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-1] printStringPost finish
-2021-08-08 10:59:36,802 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-3] getATCInfoByVid start-668897
-2021-08-08 10:59:39,386 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-3] getWhazuppFromJSON - Start
-2021-08-08 10:59:39,401 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-3] getWhazuppFromJSON - End
-2021-08-08 10:59:39,417 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-3] getATCInfoByVid finish
-2021-08-08 10:59:41,906 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-4] printStringPost start-User id: 668897
-Airport: undefined
-Frequency: 121.8
-ATIS: eu2.ts.ivao.aero/UWLL_GND,Ulyanovsk Ground,Information BRAVO  recorded at 0011z,CONFIRM ATIS INFO BRAVO  on initial contact / B / 2021-08-08T00:13:09.445Z
-2021-08-08 10:59:51,550 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-4] printStringPost finish
-2021-08-08 11:01:20,369 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-6] getATCInfoByVid start-268958
-2021-08-08 11:01:22,949 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - Start
-2021-08-08 11:01:22,986 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - End
-2021-08-08 11:01:22,986 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-6] getATCInfoByVid finish
-2021-08-08 11:01:31,086 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-7] printStringPost start-User id: 268958
-Airport: undefined
-Frequency: 118.2
-ATIS: eu17.ts.ivao.aero/RJAA_TWR,Narita Tower,Information ALPHA  recorded at 0900z,NFFN 080800Z 06005KT 9999 FEW030 24/19 Q1016 NOSIG,ARR RWY 20 / DEP RWY 20 / TRL FL130 / TA 11000ft,RMK ||| NFFN dep/arr rwy02 / NFNA dep/arr rwy10 / NVVV dep/arr rwy11 / NWWW dep/arr rwy11 || RMK/ CHARTS ARE MANDATORY ||,CONFIRM ATIS INFO ALPHA  on initial contact,CPDLC ID NFFF / A / 2021-08-08T09:00:48.581Z
-2021-08-08 11:01:49,808 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-7] printStringPost finish
-2021-08-08 11:02:18,751 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [http-nio-8082-exec-8] getPilotInfoByVid start-451984
-2021-08-08 11:02:20,968 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-8] getWhazuppFromJSON - Start
-2021-08-08 11:02:20,999 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-8] getWhazuppFromJSON - End
-2021-08-08 11:02:20,999 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [http-nio-8082-exec-8] getPilotInfoByVid finish
-2021-08-08 11:02:23,846 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-10] printStringPost start-User id: 451984
-Airport: undefined
-Departure Aerodrome: KLAX
-Cruising Level: F380
-Destination Aerodrome: NTAA
-Departure Time: 33600
-Route: TRTON2 FICKY G575 APIDD/N0479F400 G575 ORARE DCT ASOKI ASOKI3V
-Person On Board: 138
-On Ground: true
-FOB: 
-ZFW: 
-TOW: 
-Pax Number: 
+Frequency: 118.15
+ATIS: eu16.ts.ivao.aero/LEAS_TWR,Asturias Tower,Information INDIA  recorded at 1747z,LEAS 151730Z 32004KT 270V050 9999 FEW008 BKN025 19/17 Q1023 TEMPO BKN010,ARR RWY 29 / DEP RWY 29 / TRL FL070 / TA 6000ft,RMK /ASTURIAS ACT AS A MONOPOSITION TOWER, TAKING CONTROL ON THE APPROACH, CALL TOWER NEAR THE TMA/,CONFIRM ATIS INFO INDIA  on initial contact,CPDLC ID LEAS / I / 2021-08-15T17:48:01.107Z
+2021-08-15 20:04:27,406 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-1] printStringPost finish
+2021-08-15 20:06:58,495 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-4] getWeatherObsByAirportId start-LFPG
+2021-08-15 20:06:58,496 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-4] getWeatherObsByAirport start-LFPG
+2021-08-15 20:06:58,500 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-3] getWeatherPrevByAirportId start-LFPG
+2021-08-15 20:06:58,501 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-3] getWeatherPrevByAirport start-LFPG
+2021-08-15 20:06:59,309 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-4] getWeatherObsByAirport Finish-LFPG
+2021-08-15 20:06:59,309 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-4] getWeatherObsByAirportId finish
+2021-08-15 20:06:59,319 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-3] getWeatherPrevByAirport Finish-LFPG
+2021-08-15 20:06:59,319 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-3] getWeatherPrevByAirportId finish
+2021-08-15 20:07:00,372 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-5] printStringPost start-Airport: LFPG
+METAR: LFPG 151730Z 31012KT CAVOK 26/15 Q1013 TEMPO 31015G25KT
+TAF: LFPG 151700Z 1518/1624 31012KT CAVOK TX26/1518Z TN17/1605Z PROB40  TEMPO 1609/1611 BKN030TCU PROB40  TEMPO 1612/1617 32015G25KT
 
-2021-08-08 11:02:36,654 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-10] printStringPost finish
-2021-08-08 11:50:49,225 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId start-LFPG
-2021-08-08 11:50:49,227 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport start-LFPG
-2021-08-08 11:50:49,228 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-2] getWeatherPrevByAirportId start-LFPG
-2021-08-08 11:50:49,232 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-2] getWeatherPrevByAirport start-LFPG
-2021-08-08 11:50:50,768 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport Finish-LFPG
-2021-08-08 11:50:50,768 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId finish
-2021-08-08 11:50:50,778 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-2] getWeatherPrevByAirport Finish-LFPG
-2021-08-08 11:50:50,779 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-2] getWeatherPrevByAirportId finish
-2021-08-08 11:59:52,255 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [http-nio-8082-exec-10] getPilotInfoByVid start-451984
-2021-08-08 11:59:54,322 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-10] getWhazuppFromJSON - Start
-2021-08-08 11:59:54,354 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-10] getWhazuppFromJSON - End
-2021-08-08 11:59:54,354 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [http-nio-8082-exec-10] getPilotInfoByVid finish
-2021-08-08 12:02:56,675 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-1] getATCInfoByVid start-668897
-2021-08-08 12:02:59,696 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-1] getWhazuppFromJSON - Start
-2021-08-08 12:02:59,729 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-1] getWhazuppFromJSON - End
-2021-08-08 12:02:59,729 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-1] getATCInfoByVid finish
-2021-08-08 12:03:09,252 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [http-nio-8082-exec-2] getPilotInfoByVid start-668897
-2021-08-08 12:03:12,294 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-2] getWhazuppFromJSON - Start
-2021-08-08 12:03:12,326 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-2] getWhazuppFromJSON - End
-2021-08-08 12:03:12,326 WARN c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [http-nio-8082-exec-2] The vid 668897 does not exist or is not a pilot
-2021-08-08 12:03:12,326 ERROR c.e.i.c.e.VidNotFoundException-<init> [http-nio-8082-exec-2] The vid 668897 does not exist  or is not a pilot"
-2021-08-08 12:19:32,483 INFO c.e.i.IvaoMsV0Application-logStarting [main] Starting IvaoMsV0Application on PO709427VW10SC2 with PID 9128 (C:\DEV\Git\Perso\ivao-ms-v0\target\classes started by S058601 in C:\DEV\Git\Perso\ivao-ms-v0)
-2021-08-08 12:19:32,498 DEBUG c.e.i.IvaoMsV0Application-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2021-08-08 12:19:32,498 INFO c.e.i.IvaoMsV0Application-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
-2021-08-08 12:19:34,405 INFO c.e.i.IvaoMsV0Application-logStarted [main] Started IvaoMsV0Application in 2.342 seconds (JVM running for 9.111)
-2021-08-08 12:22:07,979 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId start-LFPG
-2021-08-08 12:22:07,979 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-2] getWeatherPrevByAirportId start-LFPG
-2021-08-08 12:22:07,979 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-2] getWeatherPrevByAirport start-LFPG
-2021-08-08 12:22:07,979 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport start-LFPG
-2021-08-08 12:22:09,899 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [http-nio-8082-exec-2] getWeatherPrevByAirport Finish-LFPG
-2021-08-08 12:22:09,899 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [http-nio-8082-exec-2] getWeatherPrevByAirportId finish
-2021-08-08 12:22:10,008 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [http-nio-8082-exec-1] getWeatherObsByAirport Finish-LFPG
-2021-08-08 12:22:10,008 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [http-nio-8082-exec-1] getWeatherObsByAirportId finish
-2021-08-08 12:22:36,374 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-3] printStringPost start-LFPGLFPG 081000Z 22015KT 9999 BKN028 SCT040 17/10 Q1012 NOSIGLFPG 080500Z 0806/0912 24012KT 9999 BKN016 TX21/0815Z TN14/0806Z  TEMPO 0806/0807 BKN012 PROB40  TEMPO 0809/0818 24015G25KT SCT020TCU PROB30  TEMPO 0809/0818 4000 SHRA FEW020CB BKN030 PROB30  TEMPO 0910/0912 SCT020TCU
-2021-08-08 12:22:51,618 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-3] printStringPost finish
-2021-08-08 12:23:54,899 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [http-nio-8082-exec-6] getPilotInfoByVid start-451984
-2021-08-08 12:23:57,915 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - Start
-2021-08-08 12:23:58,054 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-6] getWhazuppFromJSON - End
-2021-08-08 12:23:58,069 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [http-nio-8082-exec-6] getPilotInfoByVid finish
-2021-08-08 12:25:18,543 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-8] printStringPost start-User id: 451984
-Airport: undefined
-Departure Aerodrome: KLAX
-Cruising Level: F380
-Destination Aerodrome: NTAA
-Departure Time: 33600
-Route: TRTON2 FICKY G575 APIDD/N0479F400 G575 ORARE DCT ASOKI ASOKI3V
-Person On Board: 138
-On Ground: false
-FOB: 123
-ZFW: 234234
-TOW: SERZER
-Pax Number: 
-
-2021-08-08 12:25:27,382 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-8] printStringPost finish
-2021-08-08 12:25:56,179 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-9] getATCInfoByVid start-668897
-2021-08-08 12:25:59,711 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-9] getWhazuppFromJSON - Start
-2021-08-08 12:25:59,757 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-9] getWhazuppFromJSON - End
-2021-08-08 12:25:59,757 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-9] getATCInfoByVid finish
-2021-08-08 12:28:03,882 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-2] getATCInfoByVid start-668897
-2021-08-08 12:28:05,757 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-2] getWhazuppFromJSON - Start
-2021-08-08 12:28:05,788 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [http-nio-8082-exec-2] getWhazuppFromJSON - End
-2021-08-08 12:28:05,788 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [http-nio-8082-exec-2] getATCInfoByVid finish
+2021-08-15 20:07:00,397 INFO c.e.i.c.IvaoWeatherControler-printStringPost [http-nio-8082-exec-5] printStringPost finish
+2021-08-15 20:12:38,705 INFO c.e.i.IvaoMsV0ApplicationTests-logStarting [main] Starting IvaoMsV0ApplicationTests on DESKTOP-IL60ISO with PID 6648 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:12:38,749 DEBUG c.e.i.IvaoMsV0ApplicationTests-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:12:38,754 INFO c.e.i.IvaoMsV0ApplicationTests-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:12:42,815 INFO c.e.i.IvaoMsV0ApplicationTests-logStarted [main] Started IvaoMsV0ApplicationTests in 4.905 seconds (JVM running for 9.824)
+2021-08-15 20:12:43,663 INFO c.e.i.t.IvaoWeatherServiceTest-logStarting [main] Starting IvaoWeatherServiceTest on DESKTOP-IL60ISO with PID 6648 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:12:43,665 DEBUG c.e.i.t.IvaoWeatherServiceTest-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:12:43,676 INFO c.e.i.t.IvaoWeatherServiceTest-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:12:45,394 INFO c.e.i.t.IvaoWeatherServiceTest-logStarted [main] Started IvaoWeatherServiceTest in 1.761 seconds (JVM running for 12.402)
+2021-08-15 20:12:45,724 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport start- 
+2021-08-15 20:12:45,725 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport Finish- 
+2021-08-15 20:12:45,733 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport start-LFPO
+2021-08-15 20:12:45,734 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport Finish-LFPO
+2021-08-15 20:12:45,763 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport start- 
+2021-08-15 20:12:45,764 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport Finish- 
+2021-08-15 20:12:45,771 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport start-LFPO
+2021-08-15 20:12:45,772 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport Finish-LFPO
+2021-08-15 20:18:59,115 INFO c.e.i.IvaoMsV0ApplicationTests-logStarting [main] Starting IvaoMsV0ApplicationTests on DESKTOP-IL60ISO with PID 7836 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:18:59,138 DEBUG c.e.i.IvaoMsV0ApplicationTests-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:18:59,142 INFO c.e.i.IvaoMsV0ApplicationTests-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:19:02,918 INFO c.e.i.IvaoMsV0ApplicationTests-logStarted [main] Started IvaoMsV0ApplicationTests in 4.996 seconds (JVM running for 9.7)
+2021-08-15 20:19:03,671 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [main] getWhazuppFromJSON - Start
+2021-08-15 20:19:03,886 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [main] getWhazuppFromJSON - End
+2021-08-15 20:19:04,165 INFO c.e.i.t.IvaoWeatherControlerTest-logStarting [main] Starting IvaoWeatherControlerTest on DESKTOP-IL60ISO with PID 7836 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:19:04,167 DEBUG c.e.i.t.IvaoWeatherControlerTest-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:19:04,168 INFO c.e.i.t.IvaoWeatherControlerTest-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:19:05,544 INFO c.e.i.t.IvaoWeatherControlerTest-logStarted [main] Started IvaoWeatherControlerTest in 1.427 seconds (JVM running for 12.326)
+2021-08-15 20:19:05,672 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [main] getATCInfoByVid start-671399
+2021-08-15 20:19:05,677 WARN c.e.i.c.IvaoWeatherControler-getATCInfoByVid [main] The vid 671399 does not exist or is not a ATC
+2021-08-15 20:19:05,679 ERROR c.e.i.c.e.VidNotFoundException-<init> [main] The vid 671399 does not exist  or is not an ATC
+2021-08-15 20:19:05,713 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [main] getPilotInfoByVid start-177513
+2021-08-15 20:19:05,714 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [main] getPilotInfoByVid finish
+2021-08-15 20:19:05,799 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [main] getWeatherPrevByAirportId start-LFPO
+2021-08-15 20:19:05,800 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [main] getWeatherPrevByAirportId finish
+2021-08-15 20:19:05,815 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [main] getWeatherPrevByAirportId start-LFPO
+2021-08-15 20:19:05,816 WARN c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [main] The airport Id LFPO does not exist
+2021-08-15 20:19:05,816 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [main] The airport Id LFPO does not exist
+2021-08-15 20:19:05,844 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [main] getWeatherObsByAirportId start-LFPO
+2021-08-15 20:19:05,846 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [main] getWeatherObsByAirportId finish
+2021-08-15 20:19:05,868 INFO c.e.i.c.IvaoWeatherControler-printString [main] print start-LFPO
+2021-08-15 20:19:05,870 WARN c.e.i.c.IvaoWeatherControler-printString [main] Print String error. Please, look for application logs
+2021-08-15 20:19:05,871 ERROR c.e.i.c.e.PrintException-<init> [main] Print String error. Please, look for application logs
+2021-08-15 20:19:05,891 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [main] getWeatherObsByAirportId start-LFPO
+2021-08-15 20:19:05,892 WARN c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [main] The airport Id LFPO does not exist
+2021-08-15 20:19:05,893 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [main] The airport Id LFPO does not exist
+2021-08-15 20:19:05,909 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [main] getATCInfoByVid start-671399
+2021-08-15 20:19:05,910 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [main] getATCInfoByVid finish
+2021-08-15 20:19:05,938 INFO c.e.i.c.IvaoWeatherControler-printStringPost [main] printStringPost start-LFPG 041000Z 10004KT 040V150 9999 SCT036 SCT100 BKN260 20/10 Q1013 NOSIG
+2021-08-15 20:19:05,939 INFO c.e.i.c.IvaoWeatherControler-printStringPost [main] printStringPost finish
+2021-08-15 20:19:05,949 INFO c.e.i.c.IvaoWeatherControler-testWazuup [main] TestWazuup start
+2021-08-15 20:19:05,982 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [main] getPilotInfoByVid start-177513
+2021-08-15 20:19:05,984 WARN c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [main] The vid 177513 does not exist or is not a pilot
+2021-08-15 20:19:05,985 ERROR c.e.i.c.e.VidNotFoundException-<init> [main] The vid 177513 does not exist  or is not a pilot"
+2021-08-15 20:19:06,004 INFO c.e.i.c.IvaoWeatherControler-printString [main] print start-LFPO
+2021-08-15 20:19:06,006 INFO c.e.i.c.IvaoWeatherControler-printString [main] print finish
+2021-08-15 20:19:06,032 INFO c.e.i.c.IvaoWeatherControler-printStringPost [main] printStringPost start-LFPG 041000Z 10004KT 040V150 9999 SCT036 SCT100 BKN260 20/10 Q1013 NOSIG
+2021-08-15 20:19:06,034 WARN c.e.i.c.IvaoWeatherControler-printStringPost [main] printStringPost String error. Please, look for application logs
+2021-08-15 20:19:06,035 ERROR c.e.i.c.e.PrintException-<init> [main] printStringPost String error. Please, look for application logs
+2021-08-15 20:19:06,127 INFO c.e.i.t.IvaoWeatherServiceTest-logStarting [main] Starting IvaoWeatherServiceTest on DESKTOP-IL60ISO with PID 7836 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:19:06,129 DEBUG c.e.i.t.IvaoWeatherServiceTest-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:19:06,130 INFO c.e.i.t.IvaoWeatherServiceTest-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:19:07,347 INFO c.e.i.t.IvaoWeatherServiceTest-logStarted [main] Started IvaoWeatherServiceTest in 1.26 seconds (JVM running for 14.129)
+2021-08-15 20:19:07,402 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport start- 
+2021-08-15 20:19:07,405 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport Finish- 
+2021-08-15 20:19:07,412 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport start-LFPO
+2021-08-15 20:19:07,414 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport Finish-LFPO
+2021-08-15 20:19:07,444 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport start- 
+2021-08-15 20:19:07,446 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport Finish- 
+2021-08-15 20:19:07,457 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport start-LFPO
+2021-08-15 20:19:07,458 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport Finish-LFPO
+2021-08-15 20:20:40,182 INFO c.e.i.IvaoMsV0ApplicationTests-logStarting [main] Starting IvaoMsV0ApplicationTests on DESKTOP-IL60ISO with PID 11664 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:20:40,218 DEBUG c.e.i.IvaoMsV0ApplicationTests-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:20:40,223 INFO c.e.i.IvaoMsV0ApplicationTests-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:20:43,823 INFO c.e.i.IvaoMsV0ApplicationTests-logStarted [main] Started IvaoMsV0ApplicationTests in 4.278 seconds (JVM running for 8.619)
+2021-08-15 20:20:45,115 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [main] getWhazuppFromJSON - Start
+2021-08-15 20:20:45,332 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [main] getWhazuppFromJSON - End
+2021-08-15 20:20:45,533 INFO c.e.i.t.IvaoWeatherControlerTest-logStarting [main] Starting IvaoWeatherControlerTest on DESKTOP-IL60ISO with PID 11664 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:20:45,534 DEBUG c.e.i.t.IvaoWeatherControlerTest-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:20:45,536 INFO c.e.i.t.IvaoWeatherControlerTest-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:20:46,850 INFO c.e.i.t.IvaoWeatherControlerTest-logStarted [main] Started IvaoWeatherControlerTest in 1.355 seconds (JVM running for 11.649)
+2021-08-15 20:20:47,000 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [main] getATCInfoByVid start-671399
+2021-08-15 20:20:47,007 WARN c.e.i.c.IvaoWeatherControler-getATCInfoByVid [main] The vid 671399 does not exist or is not a ATC
+2021-08-15 20:20:47,009 ERROR c.e.i.c.e.VidNotFoundException-<init> [main] The vid 671399 does not exist  or is not an ATC
+2021-08-15 20:20:47,082 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [main] getPilotInfoByVid start-177513
+2021-08-15 20:20:47,085 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [main] getPilotInfoByVid finish
+2021-08-15 20:20:47,216 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [main] getWeatherPrevByAirportId start-LFPO
+2021-08-15 20:20:47,218 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [main] getWeatherPrevByAirportId finish
+2021-08-15 20:20:47,242 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [main] getWeatherPrevByAirportId start-LFPO
+2021-08-15 20:20:47,243 WARN c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [main] The airport Id LFPO does not exist
+2021-08-15 20:20:47,244 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [main] The airport Id LFPO does not exist
+2021-08-15 20:20:47,269 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [main] getWeatherObsByAirportId start-LFPO
+2021-08-15 20:20:47,270 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [main] getWeatherObsByAirportId finish
+2021-08-15 20:20:47,301 INFO c.e.i.c.IvaoWeatherControler-printString [main] print start-LFPO
+2021-08-15 20:20:47,304 WARN c.e.i.c.IvaoWeatherControler-printString [main] Print String error. Please, look for application logs
+2021-08-15 20:20:47,307 ERROR c.e.i.c.e.PrintException-<init> [main] Print String error. Please, look for application logs
+2021-08-15 20:20:47,329 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [main] getWeatherObsByAirportId start-LFPO
+2021-08-15 20:20:47,330 WARN c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [main] The airport Id LFPO does not exist
+2021-08-15 20:20:47,331 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [main] The airport Id LFPO does not exist
+2021-08-15 20:20:47,373 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [main] getATCInfoByVid start-671399
+2021-08-15 20:20:47,374 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [main] getATCInfoByVid finish
+2021-08-15 20:20:47,414 INFO c.e.i.c.IvaoWeatherControler-printStringPost [main] printStringPost start-LFPG 041000Z 10004KT 040V150 9999 SCT036 SCT100 BKN260 20/10 Q1013 NOSIG
+2021-08-15 20:20:47,415 INFO c.e.i.c.IvaoWeatherControler-printStringPost [main] printStringPost finish
+2021-08-15 20:20:47,442 INFO c.e.i.c.IvaoWeatherControler-testWazuup [main] TestWazuup start
+2021-08-15 20:20:47,477 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [main] getPilotInfoByVid start-177513
+2021-08-15 20:20:47,478 WARN c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [main] The vid 177513 does not exist or is not a pilot
+2021-08-15 20:20:47,479 ERROR c.e.i.c.e.VidNotFoundException-<init> [main] The vid 177513 does not exist  or is not a pilot"
+2021-08-15 20:20:47,509 INFO c.e.i.c.IvaoWeatherControler-printString [main] print start-LFPO
+2021-08-15 20:20:47,510 INFO c.e.i.c.IvaoWeatherControler-printString [main] print finish
+2021-08-15 20:20:47,525 INFO c.e.i.c.IvaoWeatherControler-printStringPost [main] printStringPost start-LFPG 041000Z 10004KT 040V150 9999 SCT036 SCT100 BKN260 20/10 Q1013 NOSIG
+2021-08-15 20:20:47,525 WARN c.e.i.c.IvaoWeatherControler-printStringPost [main] printStringPost String error. Please, look for application logs
+2021-08-15 20:20:47,528 ERROR c.e.i.c.e.PrintException-<init> [main] printStringPost String error. Please, look for application logs
+2021-08-15 20:20:47,615 INFO c.e.i.t.IvaoWeatherServiceTest-logStarting [main] Starting IvaoWeatherServiceTest on DESKTOP-IL60ISO with PID 11664 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:20:47,616 DEBUG c.e.i.t.IvaoWeatherServiceTest-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:20:47,617 INFO c.e.i.t.IvaoWeatherServiceTest-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:20:48,710 INFO c.e.i.t.IvaoWeatherServiceTest-logStarted [main] Started IvaoWeatherServiceTest in 1.133 seconds (JVM running for 13.508)
+2021-08-15 20:20:48,738 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport start- 
+2021-08-15 20:20:48,740 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport Finish- 
+2021-08-15 20:20:48,752 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport start-LFPO
+2021-08-15 20:20:48,760 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport Finish-LFPO
+2021-08-15 20:20:48,781 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport start- 
+2021-08-15 20:20:48,783 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport Finish- 
+2021-08-15 20:20:48,794 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport start-LFPO
+2021-08-15 20:20:48,795 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport Finish-LFPO
+2021-08-15 20:21:47,321 INFO c.e.i.IvaoMsV0ApplicationTests-logStarting [main] Starting IvaoMsV0ApplicationTests on DESKTOP-IL60ISO with PID 11996 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:21:47,374 DEBUG c.e.i.IvaoMsV0ApplicationTests-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:21:47,378 INFO c.e.i.IvaoMsV0ApplicationTests-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:21:50,752 INFO c.e.i.IvaoMsV0ApplicationTests-logStarted [main] Started IvaoMsV0ApplicationTests in 4.178 seconds (JVM running for 8.585)
+2021-08-15 20:21:51,860 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [main] getWhazuppFromJSON - Start
+2021-08-15 20:21:52,211 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [main] getWhazuppFromJSON - End
+2021-08-15 20:21:52,539 INFO c.e.i.t.IvaoWeatherControlerTest-logStarting [main] Starting IvaoWeatherControlerTest on DESKTOP-IL60ISO with PID 11996 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:21:52,540 DEBUG c.e.i.t.IvaoWeatherControlerTest-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:21:52,541 INFO c.e.i.t.IvaoWeatherControlerTest-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:21:53,801 INFO c.e.i.t.IvaoWeatherControlerTest-logStarted [main] Started IvaoWeatherControlerTest in 1.319 seconds (JVM running for 11.634)
+2021-08-15 20:21:53,967 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [main] getATCInfoByVid start-671399
+2021-08-15 20:21:53,978 WARN c.e.i.c.IvaoWeatherControler-getATCInfoByVid [main] The vid 671399 does not exist or is not a ATC
+2021-08-15 20:21:53,979 ERROR c.e.i.c.e.VidNotFoundException-<init> [main] The vid 671399 does not exist  or is not an ATC
+2021-08-15 20:21:54,048 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [main] getPilotInfoByVid start-177513
+2021-08-15 20:21:54,050 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [main] getPilotInfoByVid finish
+2021-08-15 20:21:54,239 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [main] getWeatherPrevByAirportId start-LFPO
+2021-08-15 20:21:54,240 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [main] getWeatherPrevByAirportId finish
+2021-08-15 20:21:54,277 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [main] getWeatherPrevByAirportId start-LFPO
+2021-08-15 20:21:54,278 WARN c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [main] The airport Id LFPO does not exist
+2021-08-15 20:21:54,280 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [main] The airport Id LFPO does not exist
+2021-08-15 20:21:54,298 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [main] getWeatherObsByAirportId start-LFPO
+2021-08-15 20:21:54,298 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [main] getWeatherObsByAirportId finish
+2021-08-15 20:21:54,312 INFO c.e.i.c.IvaoWeatherControler-printString [main] print start-LFPO
+2021-08-15 20:21:54,312 WARN c.e.i.c.IvaoWeatherControler-printString [main] Print String error. Please, look for application logs
+2021-08-15 20:21:54,313 ERROR c.e.i.c.e.PrintException-<init> [main] Print String error. Please, look for application logs
+2021-08-15 20:21:54,326 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [main] getWeatherObsByAirportId start-LFPO
+2021-08-15 20:21:54,342 WARN c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [main] The airport Id LFPO does not exist
+2021-08-15 20:21:54,343 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [main] The airport Id LFPO does not exist
+2021-08-15 20:21:54,360 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [main] getATCInfoByVid start-671399
+2021-08-15 20:21:54,361 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [main] getATCInfoByVid finish
+2021-08-15 20:21:54,392 INFO c.e.i.c.IvaoWeatherControler-printStringPost [main] printStringPost start-LFPG 041000Z 10004KT 040V150 9999 SCT036 SCT100 BKN260 20/10 Q1013 NOSIG
+2021-08-15 20:21:54,393 INFO c.e.i.c.IvaoWeatherControler-printStringPost [main] printStringPost finish
+2021-08-15 20:21:54,416 INFO c.e.i.c.IvaoWeatherControler-testWazuup [main] TestWazuup start
+2021-08-15 20:21:54,461 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [main] getPilotInfoByVid start-177513
+2021-08-15 20:21:54,462 WARN c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [main] The vid 177513 does not exist or is not a pilot
+2021-08-15 20:21:54,464 ERROR c.e.i.c.e.VidNotFoundException-<init> [main] The vid 177513 does not exist  or is not a pilot"
+2021-08-15 20:21:54,474 INFO c.e.i.c.IvaoWeatherControler-printString [main] print start-LFPO
+2021-08-15 20:21:54,475 INFO c.e.i.c.IvaoWeatherControler-printString [main] print finish
+2021-08-15 20:21:54,489 INFO c.e.i.c.IvaoWeatherControler-printStringPost [main] printStringPost start-LFPG 041000Z 10004KT 040V150 9999 SCT036 SCT100 BKN260 20/10 Q1013 NOSIG
+2021-08-15 20:21:54,489 WARN c.e.i.c.IvaoWeatherControler-printStringPost [main] printStringPost String error. Please, look for application logs
+2021-08-15 20:21:54,490 ERROR c.e.i.c.e.PrintException-<init> [main] printStringPost String error. Please, look for application logs
+2021-08-15 20:21:54,601 INFO c.e.i.t.IvaoWeatherServiceTest-logStarting [main] Starting IvaoWeatherServiceTest on DESKTOP-IL60ISO with PID 11996 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:21:54,611 DEBUG c.e.i.t.IvaoWeatherServiceTest-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:21:54,612 INFO c.e.i.t.IvaoWeatherServiceTest-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:21:55,650 INFO c.e.i.t.IvaoWeatherServiceTest-logStarted [main] Started IvaoWeatherServiceTest in 1.131 seconds (JVM running for 13.483)
+2021-08-15 20:21:55,695 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport start- 
+2021-08-15 20:21:55,697 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport Finish- 
+2021-08-15 20:21:55,708 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport start-LFPO
+2021-08-15 20:21:55,711 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport Finish-LFPO
+2021-08-15 20:21:55,727 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport start- 
+2021-08-15 20:21:55,728 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport Finish- 
+2021-08-15 20:21:55,749 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport start-LFPO
+2021-08-15 20:21:55,750 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport Finish-LFPO
+2021-08-15 20:26:39,543 INFO c.e.i.t.IvaoWeatherServiceTest-logStarting [main] Starting IvaoWeatherServiceTest on DESKTOP-IL60ISO with PID 8884 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:26:39,555 DEBUG c.e.i.t.IvaoWeatherServiceTest-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:26:39,557 INFO c.e.i.t.IvaoWeatherServiceTest-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:26:42,556 INFO c.e.i.t.IvaoWeatherServiceTest-logStarted [main] Started IvaoWeatherServiceTest in 3.297 seconds (JVM running for 6.032)
+2021-08-15 20:27:24,498 INFO c.e.i.t.IvaoWeatherServiceTest-logStarting [main] Starting IvaoWeatherServiceTest on DESKTOP-IL60ISO with PID 6140 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:27:24,515 DEBUG c.e.i.t.IvaoWeatherServiceTest-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:27:24,560 INFO c.e.i.t.IvaoWeatherServiceTest-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:27:27,189 INFO c.e.i.t.IvaoWeatherServiceTest-logStarted [main] Started IvaoWeatherServiceTest in 3.052 seconds (JVM running for 5.695)
+2021-08-15 20:29:18,270 INFO c.e.i.t.IvaoWeatherServiceTest-logStarting [main] Starting IvaoWeatherServiceTest on DESKTOP-IL60ISO with PID 12868 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:29:18,283 DEBUG c.e.i.t.IvaoWeatherServiceTest-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:29:18,284 INFO c.e.i.t.IvaoWeatherServiceTest-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:29:21,013 INFO c.e.i.t.IvaoWeatherServiceTest-logStarted [main] Started IvaoWeatherServiceTest in 3.037 seconds (JVM running for 6.059)
+2021-08-15 20:30:37,024 INFO c.e.i.t.IvaoUtilServiceTest-logStarting [main] Starting IvaoUtilServiceTest on DESKTOP-IL60ISO with PID 12588 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:30:37,035 DEBUG c.e.i.t.IvaoUtilServiceTest-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:30:37,037 INFO c.e.i.t.IvaoUtilServiceTest-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:30:39,279 INFO c.e.i.t.IvaoUtilServiceTest-logStarted [main] Started IvaoUtilServiceTest in 2.615 seconds (JVM running for 5.566)
+2021-08-15 20:31:19,551 INFO c.e.i.t.IvaoUtilServiceTest-logStarting [main] Starting IvaoUtilServiceTest on DESKTOP-IL60ISO with PID 9044 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:31:19,563 DEBUG c.e.i.t.IvaoUtilServiceTest-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:31:19,565 INFO c.e.i.t.IvaoUtilServiceTest-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:31:22,049 INFO c.e.i.t.IvaoUtilServiceTest-logStarted [main] Started IvaoUtilServiceTest in 2.79 seconds (JVM running for 5.45)
+2021-08-15 20:31:53,178 INFO c.e.i.IvaoMsV0ApplicationTests-logStarting [main] Starting IvaoMsV0ApplicationTests on DESKTOP-IL60ISO with PID 2704 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:31:53,210 DEBUG c.e.i.IvaoMsV0ApplicationTests-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:31:53,222 INFO c.e.i.IvaoMsV0ApplicationTests-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:31:57,146 INFO c.e.i.IvaoMsV0ApplicationTests-logStarted [main] Started IvaoMsV0ApplicationTests in 4.711 seconds (JVM running for 10.061)
+2021-08-15 20:31:58,011 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [main] getWhazuppFromJSON - Start
+2021-08-15 20:31:58,237 INFO c.e.i.s.IvaoUtilService-getWhazuppFromJSON [main] getWhazuppFromJSON - End
+2021-08-15 20:31:58,475 INFO c.e.i.t.IvaoWeatherControlerTest-logStarting [main] Starting IvaoWeatherControlerTest on DESKTOP-IL60ISO with PID 2704 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:31:58,476 DEBUG c.e.i.t.IvaoWeatherControlerTest-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:31:58,478 INFO c.e.i.t.IvaoWeatherControlerTest-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:31:59,805 INFO c.e.i.t.IvaoWeatherControlerTest-logStarted [main] Started IvaoWeatherControlerTest in 1.376 seconds (JVM running for 12.721)
+2021-08-15 20:31:59,970 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [main] getATCInfoByVid start-671399
+2021-08-15 20:31:59,978 WARN c.e.i.c.IvaoWeatherControler-getATCInfoByVid [main] The vid 671399 does not exist or is not a ATC
+2021-08-15 20:31:59,987 ERROR c.e.i.c.e.VidNotFoundException-<init> [main] The vid 671399 does not exist  or is not an ATC
+2021-08-15 20:32:00,150 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [main] getPilotInfoByVid start-177513
+2021-08-15 20:32:00,160 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [main] getPilotInfoByVid finish
+2021-08-15 20:32:00,350 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [main] getWeatherPrevByAirportId start-LFPO
+2021-08-15 20:32:00,352 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [main] getWeatherPrevByAirportId finish
+2021-08-15 20:32:00,390 INFO c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [main] getWeatherPrevByAirportId start-LFPO
+2021-08-15 20:32:00,391 WARN c.e.i.c.IvaoWeatherControler-getWeatherPrevByAirportId [main] The airport Id LFPO does not exist
+2021-08-15 20:32:00,393 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [main] The airport Id LFPO does not exist
+2021-08-15 20:32:00,411 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [main] getWeatherObsByAirportId start-LFPO
+2021-08-15 20:32:00,413 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [main] getWeatherObsByAirportId finish
+2021-08-15 20:32:00,425 INFO c.e.i.c.IvaoWeatherControler-printString [main] print start-LFPO
+2021-08-15 20:32:00,426 WARN c.e.i.c.IvaoWeatherControler-printString [main] Print String error. Please, look for application logs
+2021-08-15 20:32:00,427 ERROR c.e.i.c.e.PrintException-<init> [main] Print String error. Please, look for application logs
+2021-08-15 20:32:00,453 INFO c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [main] getWeatherObsByAirportId start-LFPO
+2021-08-15 20:32:00,455 WARN c.e.i.c.IvaoWeatherControler-getWeatherObsByAirportId [main] The airport Id LFPO does not exist
+2021-08-15 20:32:00,456 ERROR c.e.i.c.e.AirportIdtNotFoundException-<init> [main] The airport Id LFPO does not exist
+2021-08-15 20:32:00,478 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [main] getATCInfoByVid start-671399
+2021-08-15 20:32:00,481 INFO c.e.i.c.IvaoWeatherControler-getATCInfoByVid [main] getATCInfoByVid finish
+2021-08-15 20:32:00,515 INFO c.e.i.c.IvaoWeatherControler-printStringPost [main] printStringPost start-LFPG 041000Z 10004KT 040V150 9999 SCT036 SCT100 BKN260 20/10 Q1013 NOSIG
+2021-08-15 20:32:00,519 INFO c.e.i.c.IvaoWeatherControler-printStringPost [main] printStringPost finish
+2021-08-15 20:32:00,533 INFO c.e.i.c.IvaoWeatherControler-testWazuup [main] TestWazuup start
+2021-08-15 20:32:00,569 INFO c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [main] getPilotInfoByVid start-177513
+2021-08-15 20:32:00,571 WARN c.e.i.c.IvaoWeatherControler-getPilotInfoByVid [main] The vid 177513 does not exist or is not a pilot
+2021-08-15 20:32:00,573 ERROR c.e.i.c.e.VidNotFoundException-<init> [main] The vid 177513 does not exist  or is not a pilot"
+2021-08-15 20:32:00,584 INFO c.e.i.c.IvaoWeatherControler-printString [main] print start-LFPO
+2021-08-15 20:32:00,585 INFO c.e.i.c.IvaoWeatherControler-printString [main] print finish
+2021-08-15 20:32:00,598 INFO c.e.i.c.IvaoWeatherControler-printStringPost [main] printStringPost start-LFPG 041000Z 10004KT 040V150 9999 SCT036 SCT100 BKN260 20/10 Q1013 NOSIG
+2021-08-15 20:32:00,599 WARN c.e.i.c.IvaoWeatherControler-printStringPost [main] printStringPost String error. Please, look for application logs
+2021-08-15 20:32:00,599 ERROR c.e.i.c.e.PrintException-<init> [main] printStringPost String error. Please, look for application logs
+2021-08-15 20:32:00,670 INFO c.e.i.t.IvaoWeatherServiceTest-logStarting [main] Starting IvaoWeatherServiceTest on DESKTOP-IL60ISO with PID 2704 (started by Eric in D:\Documents E\git\ivao-ms-v0)
+2021-08-15 20:32:00,671 DEBUG c.e.i.t.IvaoWeatherServiceTest-logStarting [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-08-15 20:32:00,672 INFO c.e.i.t.IvaoWeatherServiceTest-logStartupProfileInfo [main] No active profile set, falling back to default profiles: default
+2021-08-15 20:32:01,633 INFO c.e.i.t.IvaoWeatherServiceTest-logStarted [main] Started IvaoWeatherServiceTest in 0.997 seconds (JVM running for 14.548)
+2021-08-15 20:32:01,663 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport start- 
+2021-08-15 20:32:01,664 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport Finish- 
+2021-08-15 20:32:01,684 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport start-LFPO
+2021-08-15 20:32:01,685 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport Finish-LFPO
+2021-08-15 20:32:01,696 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport start- 
+2021-08-15 20:32:01,698 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherObsByAirport [main] getWeatherObsByAirport Finish- 
+2021-08-15 20:32:01,703 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport start-LFPO
+2021-08-15 20:32:01,704 INFO c.e.i.s.IvaoWeatherServiceImpl-getWeatherPrevByAirport [main] getWeatherPrevByAirport Finish-LFPO
