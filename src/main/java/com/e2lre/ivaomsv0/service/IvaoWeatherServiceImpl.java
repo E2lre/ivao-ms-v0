@@ -163,6 +163,27 @@ public class IvaoWeatherServiceImpl implements IvaoWeatherService {
         return atcResult;
     }
 
+    /**
+     * Give atc information by callsign with ivao API V2
+     * @param callsign callsign
+     * @return atc information
+     */
+    @Override
+    public Atc getATCInfoByCallsign(String callsign) {
+        Atc atcResult = null;
+        String atcInfoList = ivaoUtilService.getPilotInfoList2();
+        if (atcInfoList != null) {
+            Whazuup whazuup = ivaoUtilService.getWhazuppFromJSON(atcInfoList);
+            if (whazuup != null) {
+                List<Atc> atcResults = whazuup.getClients().getAtcs();
+                atcResult = ivaoUtilService.findAtcByCallsign(atcResults,callsign);
+
+            }
+        }
+
+        return atcResult;
+    }
+
     @Override
     public String printString(String info)  {
         String result = null;
