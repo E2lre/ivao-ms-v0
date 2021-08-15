@@ -20,6 +20,7 @@ public interface IvaoWeatherService {
     public PilotATC getFOLMEInfoByVid(String vid);
     public Pilot getPilotInfoByVid2(String vid);
     public Atc getATCInfoByVid(String vid);
+    public Atc getATCInfoByCallsign(String callsign);
     public String printString(String info);
 
 

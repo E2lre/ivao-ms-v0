@@ -174,6 +174,28 @@ public class IvaoWeatherControler {
         logger.info("getATCInfoByVid finish");
         return result;
     }
+    /*---------------------------  GET ATC info by Callsign -----------------------------*/
+
+    /**
+     * Get ATC Information By Callsign
+     * @param callsign callsign
+     * @return ATC Information
+     * @throws VidNotFoundException if vid not found
+     */
+    @GetMapping(value = "ATCInfoCallsign/{callsign}")
+    @ResponseStatus(HttpStatus.OK)
+    public Atc getATCInfoByCallsign(@PathVariable String callsign) throws VidNotFoundException {
+
+        logger.info("getATCInfoByCallsign start-" + callsign);
+        Atc result = null;
+        result = ivaoWeatherService.getATCInfoByCallsign(callsign);
+        if (result == null) {
+            logger.warn("The callsign " + callsign + " does not exist or is not a ATC");
+            throw new VidNotFoundException("The callsign " + callsign + " does not exist  or is not an ATC");
+        }
+        logger.info("getATCInfoByCallsign finish");
+        return result;
+    }
     /*---------------------------  Print information string -----------------------------*/
 
 

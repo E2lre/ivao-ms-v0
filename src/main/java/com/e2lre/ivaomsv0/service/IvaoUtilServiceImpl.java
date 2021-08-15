@@ -92,6 +92,18 @@ public class IvaoUtilServiceImpl implements IvaoUtilService{
         }
         return atcResult;
     }
+
+    @Override
+    public Atc findAtcByCallsign(List<Atc> atcs, String callsign) {
+        Atc atcResult = null;
+        for (Atc a : atcs){
+            if (a.getCallsign().equals(callsign)) {
+                atcResult = a;
+            }
+        }
+        return atcResult;
+    }
+
     @Override
     public  Pilot findPilotByVid(List<Pilot> pilotes, String vid) {
         Pilot piloteResult = null;

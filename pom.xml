@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.e2lre</groupId>
 	<artifactId>ivao-ms-v0</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>ivao-ms-v0</name>
 	<description>API REST for ivao project</description>
 	<!-- ******************************************************************* -->
